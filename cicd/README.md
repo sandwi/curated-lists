@@ -17,7 +17,7 @@
 | Zero-Downtime Production Releases| Achieve zero downtime through blue/green, canary or N+1 releases. |
 | Feature Toggle | Use feature toggles to activate/de­activate new features in production via configuration. |  Togglz |
 
-# Versioning
+# Version Control
 ## Trunk-Based Development
 ## Feature Toggle
 # Build Automation 
