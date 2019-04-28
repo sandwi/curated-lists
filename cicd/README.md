@@ -2,6 +2,17 @@
 
 | Practice | Description  |  
 | -------- | ------------ |  
-| Version Control | Everything required to build application should be in version contol such as github or bitbucket (git) to store all software assets: source infrastructure­as­a­code automation code, test scripts configuration files, install scripts and so on.
-Branching Strategy Trunk­based development with optional short­lived branches that
-eliminate need for hardening sprints/phases. |  
+| Version Control | Everything required to build application should be in version contol such as github or bitbucket (git) to store all software assets: source infrastructure­as­a­code automation code, test scripts configuration files, install scripts and so on. Branching Strategy Trunk­based development with optional short­lived branches that eliminate need for hardening sprints/phases. |  
+| Code Coverage | Implement automated unit testing and percentage of application code coverage by unit tests is measured and monitored. 80% or above unit tests must pass. All unit tests must be executed locally before code commit. Quality gates should be configured to break the build if test coverage thresho Code coverage level must increase as coverage improves.  |  
+| Static Analysis | A static code analysis is performed on every build and Critical / Blocker items should cause build breakage. Use checkstyle, code quality checkers (such as FindBug and tools like SonarQube for Java. |  
+| Security Analysis | A security scan is performed with every build cycle or nightly. Critical / High items should cause build breakage.Use fortify security scan. Create stories to address security items in every sprint.
+| Open Source Scanning | An open source legal and security scan is performed in every build. Use non-compliance to open source policies to break the build. Use blackduck open source code scanning as part of Address Critial/High items in every spring. Address open source compliance issues early in the cycle so not pick an open source software related issue late in the cycle which can impact development |  
+| Artifact Management | Artifacts must be published in an artifact management repository with versioning and metadata about its origin. Use Nexus or Artifactory Repository to publish artifacts.
+| Automated provisioning of infrastructure | Use automated provisioning i.e. infrastructure-as-a-code to provision infrastructure in private and on public cloud. Use tools like PCF Bosh, CloudFormation or Chef to automate infrastructure provisioning in Production & Non-Production.
+| Immutable Servers | Non-Prod and Production servers are never modified unless there is emergency incident. They are replaced with automated provisioning | 
+| Automated Build, Test, Deployment | Code changes are built, deployed and tested without manual intervention. Use Jenkins and Concourse along with Hithub or Bitbucket or similar VCS, and automate build pipeline |
+| Automated Integration Testing | Every deployment has some level of test automation included which perform integration testing as part of the CI/CD pipeline | 
+| Automated Performance Testing | As part of the CI/CD pipeline, prior to production deployment, performance tests are initiated and key performance metrics are captured and compared to established threshholds for the KPI. Use APM (e.g. New Relic, App Dynamics etc.) to capture performance metrics a alerts. The production deployment should be stopped performance tests fail | 
+| Automated Rollback | If deployment process fails, rollback of the application and configuration is automated. Use Blue/Green deployment |  
+| Zero-Downtime Production Releases| Achieve zero downtime through blue/green, canary or N+1 releases |
+| Feature Toggle | Use feature toggles to activate/de­activate new features in production via configuration |  
