@@ -22,6 +22,10 @@
 ## Feature Toggle
 # Build Automation 
 # CI Tools
+# Static Analysis
+## Code Style, Linting
+## Security Scans
+## Open Source License Compliance Scans
 # Test Coverage  
 ## Java
 ## JavaScript
