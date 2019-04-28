@@ -16,3 +16,16 @@
 | Automated Rollback | If deployment process fails, rollback of the application and configuration is automated. Use Blue/Green deployment. |    |  
 | Zero-Downtime Production Releases| Achieve zero downtime through blue/green, canary or N+1 releases. |
 | Feature Toggle | Use feature toggles to activate/de­activate new features in production via configuration. |  Togglz |
+
+# Versioning
+## Trunk-Based Development
+## Feature Toggle
+# Build Automation 
+# CI Tools
+# Test Coverage  
+## Java
+## JavaScript
+## Scala
+## Python
+# Performane Testing
+# Infrastructure Automation
