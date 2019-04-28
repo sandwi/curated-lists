@@ -2,7 +2,7 @@
 
 | Practice | Description  |  Enabling Tools or Platforms |  
 | -------- | ------------ |  --------------------------- |  
-| Version Control | Everything required to build application should be in version contol such as github or bitbucket (git) to store all software assets: source infrastructure-as-a-code automation code, test scripts configuration files, install scripts and so on. Branching Strategy Trunk-based development with optional short-lived branches that eliminate need for hardening sprints/phases. |  
+| Version Control | Everything required to build application should be in version contol such as github or bitbucket (git) to store all software assets: source infrastructure-as-a-code automation code, test scripts configuration files, install scripts and so on. Branching Strategy Trunk-based development with optional short-lived branches that eliminate need for hardening sprints/phases. |  Github, Bitbucket, Mercurial | 
 | Code Coverage | Implement automated unit testing and percentage of application code coverage by unit tests is measured and monitored. 80% or above unit tests must pass. All unit tests must be executed locally before code commit. Quality gates should be configured to break the build if test coverage thresho Code coverage level must increase as coverage improves.  | SonarQube, Jacoco | 
 | Static Analysis | A static code analysis is performed on every build and Critical / Blocker items should cause build breakage. Use checkstyle, code quality checkers | FindBugs. SonarQube, Google Java Check Style, Google or AirBnB JavaScript check style |  
 | Security Analysis | A security scan is performed with every build cycle or nightly. Critical / High items should cause build breakage. Create stories to address security items in every sprint. | Fortify security scan |  
@@ -10,8 +10,8 @@
 | Artifact Management | Artifacts must be published in an artifact management repository with versioning and metadata about its origin.|  Nexus or Artifactory Repository | 
 | Automated provisioning of infrastructure | Use automated provisioning i.e. infrastructure-as-a-code to provision infrastructure in private and on public cloud to automate infrastructure provisioning in Production & Non-Production. | PCF Bosh, AWS CloudFormation, Chef, Puppet, Terraform, Ansible |  
 | Immutable Servers | Non-Prod and Production servers are never modified unless there is emergency incident. They are replaced with automated provisioning | Docker, Kubernetes, PCF/Cloud Foundry | 
-| Automated Build, Test, Deployment | Code changes are built, deployed and tested without manual intervention. | Use Jenkins and Concourse along with Github or Bitbucket or similar VCS, and automate build pipeline |  
-| Automated Integration Testing | Every deployment has some level of test automation included which perform integration testing as part of the CI/CD pipeline | TestNG, xUnit | 
+| Automated Build, Test, Deployment Pipeline | Code changes are built, deployed and tested without manual intervention. | Jenkins, Concourse, TravisCI, Gitlab, CircleCI,CodeShip |  
+| Automated Integration Testing | Every deployment has some level of test automation included which perform integration testing as part of the CI/CD pipeline | TestNG, DBUnit, JsUnit, xUnit | 
 | Automated Performance Testing | As part of the CI/CD pipeline, prior to production deployment, performance tests are initiated and key performance metrics are captured and compared to established threshholds for the KPI. Use APM (e.g. New Relic, App Dynamics etc.) to capture performance metrics a alerts. The production deployment should be stopped performance tests fail | 
 | Automated Rollback | If deployment process fails, rollback of the application and configuration is automated. Use Blue/Green deployment |    |  
 | Zero-Downtime Production Releases| Achieve zero downtime through blue/green, canary or N+1 releases |
