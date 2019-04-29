@@ -1,5 +1,9 @@
 [API Management](https://github.com/sandwi/curated-lists/wiki/API-Management)
 
+# REST API Principles
+
+# API Management Platforms
+
 # API Versioning
 * [Evolving HTTP APIs](https://www.mnot.net/blog/2012/12/04/api-evolution) by Mark Nottingham, argues for versioning using URI with only major numbers, however Mark is open to content negotiation as a good approach
 * [Common Misconceptions about API Versioning](https://cloud.google.com/blog/products/api-management/common-misconceptions-about-api-versioning) by Google Cloud (Apigee team), argues for versioning using content negotiation
