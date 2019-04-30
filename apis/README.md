@@ -1,5 +1,7 @@
 [API Management](https://github.com/sandwi/curated-lists/wiki/API-Management)
 
+**Table of Content**
+
 # REST API Principles
 
 # API Management Platforms
