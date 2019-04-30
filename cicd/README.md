@@ -87,16 +87,68 @@
 * [Blackduck](https://www.blackducksoftware.com/)
 * [White Source](https://www.whitesourcesoftware.com/)
 
-# Test Coverage  
+## Test Coverage  
 * [SonarQube](https://www.sonarqube.org/)
 
-## Java
-* [FindBugs]()
-* [JaCoCo]()
-## JavaScript
-## Scala
-## Python
+### Java
+* [SpotBugs, formerly FindBugs](https://spotbugs.github.io/)
+* [JaCoCo](https://www.jacoco.org/jacoco/)
+* [OpenClover](http://openclover.org/)
+
+### JavaScript
+* [Jest](https://jestjs.io/) - Primarily for unit testing JavaScript but offers test coverage analysis
+* [Istanbul](https://istanbul.js.org/)
+
+### Scala
+* [SCoverage](http://scoverage.org/)
+
+### Python
+* [Covergae.py](https://coverage.readthedocs.io/en/v4.5.x/)
+* [Testing and Coverage with Python](https://developer.ibm.com/recipes/tutorials/testing-and-code-coverage-with-python/)
+
+# Testing
+## Unit Testing
+### Java
+* [JUnit]
+* [TestNG]
+* [HtmlUnit]
+* [DBUnit]
+* [Mockito]()
+*
+### Scala
+* [ScalaTest](http://www.scalatest.org/)
+
+### JavaScript
+* [Jest](https://jestjs.io/) 
+* [Mocha](https://mochajs.org/)
+* [Karma](https://karma-runner.github.io/3.0/index.html)
+* [Jasmine](https://jasmine.github.io/)
+
+### Python
+* [Python unittesting](https://docs.python.org/3/library/unittest.html)
+* [PyTest](http://pytest.org/latest/)
+* [Hypothesis](https://hypothesis.readthedocs.io/en/latest/index.html)
+* [mimesis](https://github.com/lk-geimfari/mimesis) - A very useful tool to generate big volumes of fake data for a variety of purposes in a variety of languages
+* Hitchhiker's Guide to Python [writing tests](https://docs.python-guide.org/writing/tests/)
+* [FullStack Python Unit Testing](https://www.fullstackpython.com/unit-testing.html)
+
+### Swift
+* [Ray Wenderlich Tutotrial on iOS Unit Testing](https://www.raywenderlich.com/709-ios-unit-testing-and-ui-testing-tutorial)
+
+## Behavior Drive Development 
+* [Cucumber](https://cucumber.io/)
+* [Selenium](https://www.seleniumhq.org/)
+* [Test Automation with Cucumber and Selenium](https://www.softwaretestinghelp.com/cucumber-bdd-tool-selenium-tutorial-30/)
+
+### API Testing
+* [RestAssured](http://rest-assured.io/)
+* [SoapUI](https://www.soapui.org/)
+* [Postman](https://www.getpostman.com/)
+
 # Performane Testing
+* [JMeter](https://jmeter.apache.org/)
+* [Grinder](https://github.com/cossme/grinder)
+* [Gatling](https://gatling.io/)
 
 # Infrastructure Automation
 ## Continuous Delivery (CD)
