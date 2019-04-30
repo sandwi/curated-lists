@@ -59,7 +59,7 @@ the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fie
   * RFC7516 JSON Web Encryption (JWE): https://tools.ietf.org/html/rfc7516
   * RFC7515 JSON Web Signature (JWS): http://tools.ietf.org/html/rfc7515
   * RFC7516 JSON Web Keys (JWK): https://tools.ietf.org/html/rfc7517
-  * RFC7516 JSON Web Algorithms (JWA): https://tools.ietf.org/html/rfc7518
+  * RFC7518 JSON Web Algorithms (JWA): https://tools.ietf.org/html/rfc7518
   * JOSE Libraries
     * List of Libraries: https://openid.net/developers/jwt/
     * Java Nimbus Library: https://connect2id.com/products/nimbus-jose-jwt
