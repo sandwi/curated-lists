@@ -27,8 +27,8 @@
 * [DDD and Microservices: At Last, Some Boundaries!](https://www.youtube.com/watch?v=yPvef9R3k-M) by Eric Evans 
 * [Domain Driven Design for Services Architecture](https://www.thoughtworks.com/insights/blog/domain-driven-design-services-architecture)
 * [Domain-Driven Design – What is it and how do you use it?](https://airbrake.io/blog/software-design/domain-driven-design)
-* Bounded Context and Aggregates play a major role in Microservices Architecture
-  * [Bounded Context](https://martinfowler.com/bliki/BoundedContext.html)
+* Bounded Context and Aggregates play a major role in Microservices Architecture as these concepts are used for defining Microservices boundary and right sizing Microservices
+  * Martin Fowler on [Bounded Context](https://martinfowler.com/bliki/BoundedContext.html)
   * [Bounded Context Explained](https://blog.sapiensworks.com/post/2012/04/17/DDD-The-Bounded-Context-Explained.aspx)
   * Adrian Cockroft, Bounded Content on Twitter: https://twitter.com/adrianco/status/871367419813429249
   * Martin Fowler on [Aggregates](https://martinfowler.com/bliki/DDD_Aggregate.html)
