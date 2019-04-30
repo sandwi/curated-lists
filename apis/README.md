@@ -53,7 +53,7 @@ the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fie
   * High Level information: https://www.authlete.com/documents/article/pkce/authorization_request
 * JSON Web Tokens (JWT)
   * RFC7519: https://tools.ietf.org/html/rfc7519
-  * JWT: https://www.jwt.io
+  * JWT: https://jwt.io
 * JSON Object Signing and Encryption (JOSE) specifications
   * RFC7516 JSON Web Encryption (JWE): https://tools.ietf.org/html/rfc7516
   * RFC7515 JSON Web Signature (JWS): http://tools.ietf.org/html/rfc7515
