@@ -5,8 +5,8 @@
 * [API Management Platforms](https://github.com/sandwi/curated-lists/edit/master/apis/README.md#api-management-platforms)
   * [Open Source](https://github.com/sandwi/curated-lists/edit/master/apis/README.md#open-source)
   * [Commercial](https://github.com/sandwi/curated-lists/edit/master/apis/README.md#commercial)
-* [API Versionong]((https://github.com/sandwi/curated-lists/edit/master/apis/README.md#api-versioning]
-* [API Security]((https://github.com/sandwi/curated-lists/edit/master/apis/README.md#api-security)
+* [API Versionong](https://github.com/sandwi/curated-lists/edit/master/apis/README.md#api-versioning)
+* [API Security](https://github.com/sandwi/curated-lists/edit/master/apis/README.md#api-security)
 
 # REST API Principles
 <TBD>
