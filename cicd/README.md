@@ -109,11 +109,11 @@
 # Testing
 ## Unit Testing
 ### Java
-* [JUnit]
-* [TestNG]
-* [HtmlUnit]
-* [DBUnit]
-* [Mockito]()
+* [JUnit](https://junit.org/)
+* [TestNG](https://testng.org/doc/)
+* [HtmlUnit](http://htmlunit.sourceforge.net/)
+* [DBUnit](http://dbunit.sourceforge.net/)
+* [Mockito](https://site.mockito.org/)
 *
 ### Scala
 * [ScalaTest](http://www.scalatest.org/)
@@ -144,6 +144,10 @@
 * [RestAssured](http://rest-assured.io/)
 * [SoapUI](https://www.soapui.org/)
 * [Postman](https://www.getpostman.com/)
+* [Wiremock](http://wiremock.org/)
+* [Pact Testing](https://docs.pact.io/) - Contract Driven Development and Testing 
+  * [Pact Foundation](https://github.com/pact-foundation
+* [Spring Cloud Contracts](https://spring.io/projects/spring-cloud-contract) - Consumer Driven Contracts or Contract Driven Development
 
 # Performane Testing
 * [JMeter](https://jmeter.apache.org/)
@@ -176,3 +180,8 @@
 * [CodeShip Blog on Immutable Infrastructure](https://blog.codeship.com/immutable-infrastructure/)
 * Pivotal Cloud Foundary's support for [Immutable Infrastructure for Windows](https://content.pivotal.io/blog/immutable-infrastructure-windows-and-bosh)
 
+## Building Blocks for Immutable Infrastructure
+* Kubernetes
+* Docker
+* Platform-as-a-Service (PaaS)
+* Software Defined Networks (SDN)
