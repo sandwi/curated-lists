@@ -21,7 +21,7 @@
   * RFC6749: https://tools.ietf.org/html/rfc6749
   * Diagrams for all OAuth2 Flows: https://medium.com/@darutk/diagrams-and-movies-of-all-the-oauth-2-0-flows-194f3c3ade85
   * RFC6750 OAuth2 Bearer Token Usage: https://tools.ietf.org/html/rfc6750
-* PKCE
+* Proof Key for Code Exchange (PKCE)
   * RFC7636: https://oauth.net/2/pkce/
   * High Level information: https://www.authlete.com/documents/article/pkce/authorization_request
 * JSON Web Tokens (JWT)
@@ -38,5 +38,5 @@
     * JavaScript Panva Library: https://github.com/panva/jose
 
 * OpenID Connect: https://openid.net/connect/
-* 
+  * List of OpenID Connect Implementations: https://openid.net/developers/certified/
   
