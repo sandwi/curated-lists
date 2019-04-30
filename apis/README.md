@@ -7,7 +7,14 @@
 * [API Security](https://github.com/sandwi/curated-lists/blob/master/apis/README.md#api-security)
 
 # REST API Principles
-<TBD>
+* Roy Fielding's Phd Dissertation [Architectural Styles and
+the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) that defined REST
+  * [Chapter 5 Representational State Transfer (REST)](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
+* [REST on Wikipedia](http://en.wikipedia.org/wiki/Representational_state_transfer)
+* [Microsoft REST API Guidelines](https://github.com/Microsoft/api-guidelines)
+* [Enterprise Integration using REST[(https://martinfowler.com/articles/enterpriseREST.html)
+* Marty Fowler on [Richardson Maturity Model - steps towards glory of REST](https://martinfowler.com/articles/richardsonMaturityModel.html)
+* [5 Basic REST API Design Guidelines](https://blog.restcase.com/5-basic-rest-api-design-guidelines/)
 
 # API Management Platforms
 * [List by Nordic APIs](https://nordicapis.com/20-api-management-solutions/)
@@ -19,6 +26,12 @@
 * [Open API Specification](https://swagger.io/specification/)
 * [RAML](https://raml.org/)
 * [jsonapi](https://jsonapi.org/)
+* Tools
+  * [Springfox for Java/Spring](https://springfox.github.io/springfox/docs/snapshot/)
+  * [Swagger JavaScript Client](https://github.com/swagger-api/swagger-js)
+  * [Swagger-JSDoc](https://www.npmjs.com/package/swagger-jsdoc)
+  * [Swagger-UI-Express](https://www.npmjs.com/package/swagger-ui-express)
+  
 
 # API Versioning
 * [Evolving HTTP APIs](https://www.mnot.net/blog/2012/12/04/api-evolution) by Mark Nottingham, argues for versioning using URI with only major numbers, however Mark is open to content negotiation as a good approach
