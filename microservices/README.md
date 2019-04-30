@@ -1,3 +1,9 @@
+**Table of Content**
+* [Microservices Architecture Introduction & Definitions](https://github.com/sandwi/curated-lists/tree/master/microservices#microservices-architecture-introduction--definitions)
+* [Cloud Native Architecture](https://github.com/sandwi/curated-lists/tree/master/microservices#cloud-native-architecture)
+* [Domain Driven Design](https://github.com/sandwi/curated-lists/tree/master/microservices#domain-driven-design)
+* [Command Query Responsibility Segregation (CQRS) & Event Sourcing](https://github.com/sandwi/curated-lists/tree/master/microservices#command-query-responsibility-segregation-cqrs--event-sourcing)
+
 # Microservices Architecture Introduction & Definitions
 * Martin Fowler's Bliki write on microservices, [Microservices - A definitions of this new architectural term](https://martinfowler.com/articles/microservices.html)
 * Adrian Cockroft [Software Architecture Conference - Monitoring Microservices - A Challenge](https://www.slideshare.net/adriancockcroft/software-architecture-monitoring-microservices-a-challenge) - see slides 8-10 for definition
