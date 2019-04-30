@@ -1,10 +1,7 @@
-[API Management](https://github.com/sandwi/curated-lists/wiki/API-Management)
-
 **Table of Content**
 * [REST API Principles](https://github.com/sandwi/curated-lists/blob/master/apis/README.md#rest-api-principles)
 * [API Management Platforms](https://github.com/sandwi/curated-lists/blob/master/apis/README.md#api-management-platforms)
   * [Open Source](https://github.com/sandwi/curated-lists/blob/master/apis/README.md#open-source)
-  * [Commercial](https://github.com/sandwi/curated-lists/blob/master/apis/README.md#commercial)
 * [API Versioning](https://github.com/sandwi/curated-lists/blob/master/apis/README.md#api-versioning)
 * [API Security](https://github.com/sandwi/curated-lists/blob/master/apis/README.md#api-security)
 
@@ -12,9 +9,9 @@
 <TBD>
 
 # API Management Platforms
+* [List by Nordic APIs](https://nordicapis.com/20-api-management-solutions/)
 ## Open Source
-
-## Commercial
+* [List by Tech Beacon](https://techbeacon.com/app-dev-testing/you-need-api-management-help-11-open-source-tools-consider)
 
 # API Versioning
 * [Evolving HTTP APIs](https://www.mnot.net/blog/2012/12/04/api-evolution) by Mark Nottingham, argues for versioning using URI with only major numbers, however Mark is open to content negotiation as a good approach
