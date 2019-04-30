@@ -11,6 +11,7 @@
 the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) that defined REST
   * [Chapter 5 Representational State Transfer (REST)](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
 * [REST on Wikipedia](http://en.wikipedia.org/wiki/Representational_state_transfer)
+* [Google API Design Guide](http://apistylebook.com/design/guidelines/google-api-design-guide)
 * [Microsoft REST API Guidelines](https://github.com/Microsoft/api-guidelines)
 * [Enterprise Integration using REST](https://martinfowler.com/articles/enterpriseREST.html)
 * Marty Fowler on [Richardson Maturity Model - steps towards glory of REST](https://martinfowler.com/articles/richardsonMaturityModel.html)
