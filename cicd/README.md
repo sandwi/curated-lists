@@ -18,10 +18,49 @@
 | Feature Toggle | Use feature toggles to activate/de­activate new features in production via configuration. |  Togglz |
 
 # Version Control
+* [Github](https://github.com/)
+* [Bitbucket](https://bitbucket.org/)
+* [Gitlab](https://about.gitlab.com/)
+* [Mercurial](https://www.mercurial-scm.org/)
+
 ## Trunk-Based Development
+* [Trunk-Based Development Web Site](https://trunkbaseddevelopment.com/)
+* [trunk-based development (TBD) for apps]https://hackernoon.com/trunk-based-development-tbd-for-apps-9b654b6b198c)
+* [Trunk-Based Development](http://kean.github.io/post/trunk-based-development)
+* [Trunk-Based Development: What It Is and Why You Need It Now](https://rollout.io/blog/trunk-based-development-what-why/)
+* [http://kean.github.io/post/trunk-based-development](https://www.thoughtworks.com/insights/blog/enabling-trunk-based-development-deployment-pipelines)
+* [Trunk-Based Development- A Love and Hate Story](https://medium.com/comparethemarket/trunk-based-development-a-love-hate-story-be1587a13314)
+* [Trunk-Based Development as Cornerstone of Continuos Delivery](https://www.infoq.com/news/2018/04/trunk-based-development)
+
 ## Feature Toggle
-# Build Automation 
-# CI Tools
+* Marting Fowler on [Feature Toggle](https://www.martinfowler.com/articles/feature-toggles.html)
+* [Value of Feature Falgs in CI/CD](https://rollout.io/blog/value-feature-flags-ci-cd/)
+* [Hub for Feature Flags, Toggles and Controls](http://featureflags.io/)
+* List of Libraries
+  * [Feature Flags SDKs & Libraries](http://featureflags.io/feature-flags/)
+  * Java
+    * [Togglz](https://www.togglz.org/)
+    * [Flip](https://github.com/tacitknowledge/flip)
+    * [Unleash](https://github.com/Unleash/unleash)
+  * [JavaScript Feature Flags](http://featureflags.io/javascript-feature-flags/)
+* SaaS Solutions
+  * [Launch Darkly](https://launchdarkly.com/)
+
+# Build Tools & Asset Repository Management
+* [Gradle](https://gradle.org/)https://jfrog.com/bintray/
+* [Maven](https://maven.apache.org/)
+* [Nexus Repository](https://www.sonatype.com/nexus-repository-oss)
+* [JFrog Artifactory](https://jfrog.com/artifactory/)
+* [JFrog Bintray](https://jfrog.com/bintray/)
+
+# CI/CD Tools
+* [Jenkins](https://jenkins.io/)
+* [Concourse](https://concourse-ci.org/)
+* [TravisCI](https://travis-ci.org/)
+* [CircleCI](https://circleci.com/) - great for mobile app development with dedicated Mac Machines for builds
+* [CloudBees CodeShip](http://codeship.com/)
+* [Gitlab](https://about.gitlab.com/product/continuous-integration/)
+
 # Static Analysis
 ## Code Style, Linting
 ## Security Scans
@@ -32,4 +71,19 @@
 ## Scala
 ## Python
 # Performane Testing
+
 # Infrastructure Automation
+## Continuous Delivery (CD)
+* Martin Fowler's talk on [Continuous Delivery](https://www.youtube.com/watch?v=aoMfbgF2D_4)
+* [Continuous Delivery: : Reliable Software Releases through Build, Test, and Deployment Automation](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) by Jez Humble & David Farley
+## Infrastructure-as-Code 
+* [Ansible](https://www.ansible.com/)
+* [Terraform](https://www.terraform.io/)
+* [Bosh](https://www.bosh.io/docs/)
+* [Chef](https://www.chef.io/)
+* [Puppet](https://puppet.com/)
+* [AWS CloudFormation](https://aws.amazon.com/cloudformation/)
+* [Google Cloud Deployment Manager](https://cloud.google.com/deployment-manager/)
+* [Azure Resource Manager](https://docs.microsoft.com/en-us/azure/azure-resource-manager/)
+* [Azure Deployment Manager](https://docs.microsoft.com/en-us/azure/azure-resource-manager/deployment-manager-overview)
+
