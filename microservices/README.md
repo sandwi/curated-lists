@@ -11,12 +11,12 @@
 * [The Twelve Factor Application Architecture](https://12factor.net/)
 * [Pivotal on Cloud Native Application Architecture](https://pivotal.io/cloud-native)
 * Sam Newman's book [Building Microservices: Designing Fine-Grained Systems](https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1491950358)
-* Neal Ford & Rebecca Parsons (ThoughtWorks): Microservices as an Evolutionary Architecture
-* Fallacies of Distributed Computing
-* Martin Fowler on Microservices Pre-requisities
-* Martin Fowler on DevOps Culture
-* Semantic Versioning
-* Google Cloud API Versioning
+* Neal Ford & Rebecca Parsons (ThoughtWorks): [Microservices as an Evolutionary Architecture](https://www.thoughtworks.com/insights/blog/microservices-evolutionary-architecture)
+* [Fallacies of Distributed Computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
+  * [Fallacies of Distributed Computing Explained](http://www.rgoarchitects.com/Files/fallacies.pdf)
+* Martin Fowler on [Microservices Pre-requisities](https://martinfowler.com/bliki/MicroservicePrerequisites.html)
+* Martin Fowler on [DevOps Culture](https://martinfowler.com/bliki/DevOpsCulture.html)
+* [Semantic Versioning](https://semver.org/)
 
 # Domain Driven Design
 * [Domain Driven Design: Tackling Complexity in the heart of Software , 1st Edition](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215) by Eric Evans
@@ -33,8 +33,17 @@
   * Adrian Cockroft, Bounded Content on Twitter: https://twitter.com/adrianco/status/871367419813429249
   * Martin Fowler on [Aggregates](https://martinfowler.com/bliki/DDD_Aggregate.html)
   * [DDD Decoded - The Aggregate and Aggregate Root Explained](https://blog.sapiensworks.com/post/2016/07/14/DDD-Aggregate-Decoded-1)
-  * [Aggregates and Entities in Domain-Driven Design/](http://thepaulrayner.com/blog/aggregates-and-entities-in-domain-driven-design/)
+  * [Aggregates and Entities in Domain-Driven Design](http://thepaulrayner.com/blog/aggregates-and-entities-in-domain-driven-design/)
 
-# Command Query Responsibility Segregation (CQRS)
+# Command Query Responsibility Segregation (CQRS) & Event Sourcing
 * Martin Fowler on [CQRS](https://martinfowler.com/bliki/CQRS.html)
-*
+* Martin Fowler on [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html)
+* CQRS Frameworks
+  * Axon Framework
+    * [Axon Framework](https://axoniq.io/)
+    * [Axon Framework Github](https://github.com/AxonFramework/AxonFramework)
+    * [A Guide to the Axon Framework](https://www.baeldung.com/axon-cqrs-event-sourcing)
+  * [Lagom Framework](https://www.lagomframework.com/)
+    * [Lagom Github](https://github.com/lagom/lagom)
+    * [How the Lagom Framework Enables Scalable Reactive Microservices](https://medium.com/@jgwest/how-the-lagom-framework-enables-scalable-reactive-microservices-in-java-and-scala-cd8b15c0a3ad)
+    * [Guide to Reactive Microservices Using Lagom Framework](https://www.baeldung.com/lagom-reactive-microservices)
