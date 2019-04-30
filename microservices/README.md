@@ -2,7 +2,7 @@
 * [Microservices Architecture Introduction & Definitions](https://github.com/sandwi/curated-lists/tree/master/microservices#microservices-architecture-introduction--definitions)
 * [Cloud Native Architecture](https://github.com/sandwi/curated-lists/tree/master/microservices#cloud-native-architecture)
 * [Domain Driven Design](https://github.com/sandwi/curated-lists/tree/master/microservices#domain-driven-design)
-* [Command Query Responsibility Segregation (CQRS) & Event Sourcing](https://github.com/sandwi/curated-lists/tree/master/microservices#command-query-responsibility-segregation-cqrs--event-sourcing)
+* [Reactive Microservices with Command Query Responsibility Segregation (CQRS) & Event Sourcing](https://github.com/sandwi/curated-lists/tree/master/microservices#command-query-responsibility-segregation-cqrs--event-sourcing)
 
 # Microservices Architecture Introduction & Definitions
 * Martin Fowler's Bliki write on microservices, [Microservices - A definitions of this new architectural term](https://martinfowler.com/articles/microservices.html)
@@ -41,7 +41,7 @@
   * [DDD Decoded - The Aggregate and Aggregate Root Explained](https://blog.sapiensworks.com/post/2016/07/14/DDD-Aggregate-Decoded-1)
   * [Aggregates and Entities in Domain-Driven Design](http://thepaulrayner.com/blog/aggregates-and-entities-in-domain-driven-design/)
 
-# Command Query Responsibility Segregation (CQRS) & Event Sourcing
+# Reactive Microservices with Command Query Responsibility Segregation (CQRS) & Event Sourcing
 * Martin Fowler on [CQRS](https://martinfowler.com/bliki/CQRS.html)
 * Martin Fowler on [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html)
 * CQRS Frameworks
