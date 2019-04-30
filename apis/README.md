@@ -48,9 +48,10 @@ the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fie
   * RFC6749: https://tools.ietf.org/html/rfc6749
   * Diagrams for all OAuth2 Flows: https://medium.com/@darutk/diagrams-and-movies-of-all-the-oauth-2-0-flows-194f3c3ade85
   * RFC6750 OAuth2 Bearer Token Usage: https://tools.ietf.org/html/rfc6750
-* Proof Key for Code Exchange (PKCE)
-  * RFC7636: https://oauth.net/2/pkce/
-  * High Level information: https://www.authlete.com/documents/article/pkce/authorization_request
+  * Proof Key for Code Exchange (PKCE)
+    * RFC7636: https://oauth.net/2/pkce/
+    * High Level information: https://www.authlete.com/documents/article/pkce/authorization_request
+  * Draft RFC, OAuth2 for Browser-Based Apps: https://tools.ietf.org/html/draft-parecki-oauth-browser-based-apps-02
 * JSON Web Tokens (JWT)
   * RFC7519: https://tools.ietf.org/html/rfc7519
   * JWT: https://jwt.io
