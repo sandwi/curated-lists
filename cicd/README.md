@@ -47,7 +47,7 @@
   * [Launch Darkly](https://launchdarkly.com/)
 
 # Build Tools & Asset Repository Management
-* [Gradle](https://gradle.org/)https://jfrog.com/bintray/
+* [Gradle](https://gradle.org/)
 * [Maven](https://maven.apache.org/)
 * [Nexus Repository](https://www.sonatype.com/nexus-repository-oss)
 * [JFrog Artifactory](https://jfrog.com/artifactory/)
@@ -63,10 +63,36 @@
 
 # Static Analysis
 ## Code Style, Linting
+* [Google Style Guides](https://github.com/google/styleguide) - covers languages used by Google open source projects
+
+### Java
+* [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+* [Checkstyle for Google Java Style Guide](https://github.com/checkstyle/checkstyle)
+
+### JavaScript
+* [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+* [AirBnB JavaScript Style Guide](https://github.com/airbnb/javascript)
+
+### Swift
+* [Google Swift Style Guide](https://google.github.io/swift/)
+* [AirBnB Swift Style Guide](https://github.com/airbnb/swift)
+
+### Python
+* [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+
 ## Security Scans
-## Open Source License Compliance Scans
+* [Fortify Scans](https://www.microfocus.com/en-us/products/static-code-analysis-sast/overview)
+
+## Open Source Security and License Compliance Scans
+* [Blackduck](https://www.blackducksoftware.com/)
+* [White Source](https://www.whitesourcesoftware.com/)
+
 # Test Coverage  
+* [SonarQube](https://www.sonarqube.org/)
+
 ## Java
+* [FindBugs]()
+* [JaCoCo]()
 ## JavaScript
 ## Scala
 ## Python
@@ -76,14 +102,25 @@
 ## Continuous Delivery (CD)
 * Martin Fowler's talk on [Continuous Delivery](https://www.youtube.com/watch?v=aoMfbgF2D_4)
 * [Continuous Delivery: : Reliable Software Releases through Build, Test, and Deployment Automation](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) by Jez Humble & David Farley
-## Infrastructure-as-Code 
+## Infrastructure-as-Code & Deployment Automation
 * [Ansible](https://www.ansible.com/)
 * [Terraform](https://www.terraform.io/)
 * [Bosh](https://www.bosh.io/docs/)
 * [Chef](https://www.chef.io/)
 * [Puppet](https://puppet.com/)
+* [SaltStack](https://www.saltstack.com/)
 * [AWS CloudFormation](https://aws.amazon.com/cloudformation/)
+* [AWS OpsWorks](https://aws.amazon.com/opsworks/)
 * [Google Cloud Deployment Manager](https://cloud.google.com/deployment-manager/)
+* [Google Athnos](https://cloud.google.com/anthos/docs/concepts/anthos-overview)
 * [Azure Resource Manager](https://docs.microsoft.com/en-us/azure/azure-resource-manager/)
 * [Azure Deployment Manager](https://docs.microsoft.com/en-us/azure/azure-resource-manager/deployment-manager-overview)
+
+## Immutable Infrastructure
+```Immutable infrastructure is a paradigm in which servers are never modified after they're deployed. If something needs to be updated, fixed, or modified in any way, new servers built from a common image with the appropriate changes are provisioned to replace the old ones. After they're validated, they're put into use and the old ones are decommissioned.```
+
+* Hashicorp on [Mutable and Immutable Infrastructure](https://www.hashicorp.com/resources/what-is-mutable-vs-immutable-infrastructure)
+* [An Introduction to Immutable Infrastructure](https://www.oreilly.com/ideas/an-introduction-to-immutable-infrastructure)
+* [CodeShip Blog on Immutable Infrastructure](https://blog.codeship.com/immutable-infrastructure/)
+* Pivotal Cloud Foundary's support for [Immutable Infrastructure for Windows](https://content.pivotal.io/blog/immutable-infrastructure-windows-and-bosh)
 
