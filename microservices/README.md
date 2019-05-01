@@ -53,3 +53,17 @@
     * [Lagom Github](https://github.com/lagom/lagom)
     * [How the Lagom Framework Enables Scalable Reactive Microservices](https://medium.com/@jgwest/how-the-lagom-framework-enables-scalable-reactive-microservices-in-java-and-scala-cd8b15c0a3ad)
     * [Guide to Reactive Microservices Using Lagom Framework](https://www.baeldung.com/lagom-reactive-microservices)
+
+# Microservices & APIs
+Its important to emphasize that microservices are not APIs and vice versa.  
+Microservices are full systems in their own right and their capabilities are accessed via their public APIs.  
+Public APIs can be REST, gRPC or message based as in Reactive Microservices or any other protocol, REST happens to be the most popular.
+
+## Experience APIs
+* [Daniel Jacobson on Ephemeral APIs and Continuous Innovation at Netflix](https://www.infoq.com/news/2015/11/daniel-jacobson-ephemeral-apis) - An excellent interview on APIs
+  * Ephemeral APIs vs Experience APIs `Experience APIs are trying to handle an optimized response for a given requesting agent. That's orthogonal to the ephemeral APIs. The experience API is more about the requesting pattern and the payload. Ephemeral API is more about the process of iterating and evolving the experience APIs.`
+  * 
+* Netflix Blogs - Excellent read when thinking about APIs and microservices
+  * [Why REST Keeps Me Up At Night](https://www.programmableweb.com/news/why-rest-keeps-me-night/2012/05/15)
+  * [Engineering Trade-Offs and The Netflix API Re-Architecture](https://medium.com/netflix-techblog/engineering-trade-offs-and-the-netflix-api-re-architecture-64f122b277dd)
+  * [Embracing the Differences : Inside the Netflix API Redesign](https://medium.com/netflix-techblog/embracing-the-differences-inside-the-netflix-api-redesign-15fd8b3dc49d)
