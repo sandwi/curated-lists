@@ -4,6 +4,7 @@
   * [Open Source](https://github.com/sandwi/curated-lists/blob/master/apis/README.md#open-source)
 * [API Design and Documentation](https://github.com/sandwi/curated-lists/blob/master/apis/README.md#api-design-and-documentation)
 * [API Versioning](https://github.com/sandwi/curated-lists/blob/master/apis/README.md#api-versioning)
+* [Experience APIs](https://github.com/sandwi/curated-lists/blob/master/apis/README.md#experience-apis)
 * [API Security](https://github.com/sandwi/curated-lists/blob/master/apis/README.md#api-security)
 
 # REST API Principles
@@ -42,6 +43,16 @@ the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fie
 * [Bad HTTP API Smells: Version Headers](https://www.mnot.net/blog/2012/07/11/header_versioning) by Mark Nottingham, argues for custom HTTP header for version is an anti-pattern and associated problems
 * [RESTful API Versioning or a Black Hole](https://blog.restcase.com/restful-api-versioning-insights/), lists pros/cons of major API versioning approaches
 * [Four REST API Versioning Strategies](https://www.xmatters.com/integrations-blog/blog-four-rest-api-versioning-strategies/), lists pros/cons of 4 major API versioning approaches
+
+# Experience APIs
+* [Daniel Jacobson on Ephemeral APIs and Continuous Innovation at Netflix](https://www.infoq.com/news/2015/11/daniel-jacobson-ephemeral-apis) - An excellent interview on APIs
+  * Ephemeral APIs vs Experience APIs `Experience APIs are trying to handle an optimized response for a given requesting agent. That's orthogonal to the ephemeral APIs. The experience API is more about the requesting pattern and the payload. Ephemeral API is more about the process of iterating and evolving the experience APIs.`
+* [API Mediation: Why You Need an API Experience Layer](https://nordicapis.com/api-mediation-why-you-need-api-experience-layer/)
+* Netflix Blogs - Excellent read when thinking about APIs and microservices
+  * [Why REST Keeps Me Up At Night](https://www.programmableweb.com/news/why-rest-keeps-me-night/2012/05/15)
+  * [Engineering Trade-Offs and The Netflix API Re-Architecture](https://medium.com/netflix-techblog/engineering-trade-offs-and-the-netflix-api-re-architecture-64f122b277dd)
+  * [Embracing the Differences : Inside the Netflix API Redesign](https://medium.com/netflix-techblog/embracing-the-differences-inside-the-netflix-api-redesign-15fd8b3dc49d)
+
 
 # API Security
 * OAuth2: https://oauth.net/2/
