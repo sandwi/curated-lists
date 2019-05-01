@@ -3,6 +3,7 @@
 * [Cloud Native Architecture](https://github.com/sandwi/curated-lists/tree/master/microservices#cloud-native-architecture)
 * [Domain Driven Design](https://github.com/sandwi/curated-lists/tree/master/microservices#domain-driven-design)
 * [Reactive Microservices with Command Query Responsibility Segregation (CQRS) & Event Sourcing](https://github.com/sandwi/curated-lists/tree/master/microservices#command-query-responsibility-segregation-cqrs--event-sourcing)
+* [Microservices & APIs](https://github.com/sandwi/curated-lists/tree/master/microservices#microservices--apis)
 
 # Microservices Architecture Introduction & Definitions
 * Martin Fowler's Bliki write on microservices, [Microservices - A definitions of this new architectural term](https://martinfowler.com/articles/microservices.html)
@@ -62,7 +63,7 @@ Public APIs can be REST, gRPC or message based as in Reactive Microservices or a
 ## Experience APIs
 * [Daniel Jacobson on Ephemeral APIs and Continuous Innovation at Netflix](https://www.infoq.com/news/2015/11/daniel-jacobson-ephemeral-apis) - An excellent interview on APIs
   * Ephemeral APIs vs Experience APIs `Experience APIs are trying to handle an optimized response for a given requesting agent. That's orthogonal to the ephemeral APIs. The experience API is more about the requesting pattern and the payload. Ephemeral API is more about the process of iterating and evolving the experience APIs.`
-  * 
+* [API Mediation: Why You Need an API Experience Layer](https://nordicapis.com/api-mediation-why-you-need-api-experience-layer/)
 * Netflix Blogs - Excellent read when thinking about APIs and microservices
   * [Why REST Keeps Me Up At Night](https://www.programmableweb.com/news/why-rest-keeps-me-night/2012/05/15)
   * [Engineering Trade-Offs and The Netflix API Re-Architecture](https://medium.com/netflix-techblog/engineering-trade-offs-and-the-netflix-api-re-architecture-64f122b277dd)
