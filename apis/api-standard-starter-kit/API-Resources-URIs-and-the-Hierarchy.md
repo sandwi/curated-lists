@@ -1,3 +1,4 @@
+# API Resources: URI and Hierarchy
 URIs play a critical role in communicating the capabilities of REST APIs. 
 
 URIs are only those parts of the URL that appear after the HTTP scheme and domain i.e. everything after https://api.MyCo.com.
