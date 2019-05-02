@@ -79,3 +79,5 @@ the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fie
 * OpenID Connect: https://openid.net/connect/
   * List of OpenID Connect Implementations: https://openid.net/developers/certified/
   
+* [Which Grant Type Should I use?](https://auth0.com/docs/api-auth/which-oauth-flow-to-use)
+  
