@@ -2,7 +2,7 @@
 **Table of Content**
 1. [Guiding Principles](https://github.com/sandwi/curated-lists/blob/master/apis/api-standard-starter-kit/README.md#Guiding-Principles)
 2. [HTTP - REST API Building-Block](https://github.com/sandwi/curated-lists/blob/master/apis/api-standard-starter-kit/HTTP-REST-API-Building-Block.md)  
-3. [API Resources: URIs and the Hierarchy](https://github.com/sandwi/curated-lists/blob/master/apis/api-standard-starter-kit/API-Resources-URI-and-the-Hierarchy.md)  
+3. [API Resources: URIs and the Hierarchy](https://github.com/sandwi/curated-lists/blob/master/apis/api-standard-starter-kit/API-Resources-URIs-and-the-Hierarchy.md)  
 4. [API Versioning](https://github.com/sandwi/curated-lists/blob/master/apis/api-standard-starter-kit/API-Versioning.md)
 5. [API Naming Conventions](https://github.com/sandwi/curated-lists/blob/master/apis/api-standard-starter-kit/API-Naming-Conventions.md)
 6. [API Security](https://github.com/sandwi/curated-lists/blob/master/apis/api-standard-starter-kit/API-Security.md)
