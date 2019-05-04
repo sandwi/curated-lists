@@ -56,7 +56,8 @@ Irakli Nadareishvili co-author of the book “Microservice Architecture: Alignin
 “Microservice architecture is the implementation of your system, it is not public API Interface of your system that external or most internal client should depend directly on"  
 
 The following diagram illustrates the relationship between an API and a Microservice:
-![Microservices are not APIs](https://github.com/sandwi/curated-lists/blob/master/microservices/microservices-notes/microservices-are-not-apis.png)
+![Microservices are not APIs](https://github.com/sandwi/curated-lists/blob/master/microservices/microservices-notes/microservices-are-not-apis.png)  
+  
 **Figure 1** Microservices are not APIs - they are implementation of a system (i.e a bounded context in DDD terms), APIs are public view and interface to the microservice
 
 It is here the definitions provided by Martin Fowler [1], Adrian Cockcroft [2] and Werner Vogel [5] become important, so a microservice is an application built using Microservices Architecture style, that:   
