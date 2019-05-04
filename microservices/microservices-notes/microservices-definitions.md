@@ -7,14 +7,15 @@ that is, it is an architecture pattern used to construct an application with wel
 and we use the term interchangeably except where we explicitly separate a microservice from architecture style.
 
 ## Martin Fowler's definition of Microservices [1]
-The microservice architectural style is an approach to developing a single application:  
+The microservice architectural style is an approach to developing a single application:   
+  
 As a suite of small services, each running in its own process and communicating with lightweight mechanisms, often an HTTP resource API These services are built around business capabilities These services are independently deployable by fully automated deployment machinery There is a bare minimum of centralized management of these services These services may be written in different programming languages These services use different data storage technologies
 
 ## Adrian Cockroft's definition of Microservices [2]
 Adrian Cockroft, who was Chief Cloud Architect at Netflix and now is VP of Cloud Architecture Strategy at AWS defined Microservices as [2]:  
 “Loosely coupled service oriented architecture with bounded contexts"  
 
-Adrian further clarifies two terms:  
+Adrian further clarifies two terms:
 * Loosely Couple means “If every service has to be updated in concert, it's not loosely coupled!"
 * Bounded Context [3] means “If you have to know about surrounding services you don't have a bounded context."  
   
@@ -22,7 +23,6 @@ Here bounded context is a reference to Bounded Context design pattern defined in
 
 ## Sam Neuman's definition of Microservices[4]
 Sam Newman, an ex Googler and who worked at Thoughtworks, is author of _Building Microservices: Designing Fine Grained Systems_, in this book he defines Microservices as:  
-
 "Microservices are small, autonomous services that work together."
   
 Sam Newman further clarifies two terms in his definition:  
@@ -38,24 +38,27 @@ Although Amazon has never used the term “microservices", those in the industry
 ## Chris Richardson's Microservices Architecture Pattern[6]
 Chris Richardson, who was an architect at Netflix and a prominent author, trainer and a very prominent advocate of lightweight architectures, maintains a web site on Microservices Architecture where he has captured several software architecture patterns that are commonly used in Microservices Architecture Style.   
 
-The site uses famous Gang of Four (GoF) Architecture Pattern documentation template to document Microservices Architecture Pattern. The pattern has concepts very close to one defined by Martin Fowler that we covered earlier. We will not reproduce that pattern here but direct the reader to read the pattern on the microsercices.io website.
+The site uses famous Gang of Four (GoF) Architecture Pattern documentation template to document Microservices Architecture Pattern. The pattern has concepts very close to one defined by Martin Fowler that we covered earlier. We will not reproduce that pattern here but direct the reader to read the pattern on the [microsercices.io](https://microservices.io/) website.
 
 ## Final Thoughts
-Martin Fowler's definition is often used as an industry reference point. Real world pragmatism, particularly when migrating from legacy applications will relax a few constraints from the definition to meet 's needs, in particular, 
+Martin Fowler's definition is often used as an industry reference point. Real world pragmatism, particularly when migrating from legacy applications will relax a few constraints from the definition to meet needs. For example it may not be possible to have a database server per microservice.
 
 ## What Microservices are not!
-Just as important it is to understand what microservices are, it is equally important to understand what they are not. There is a common misunderstanding that microservices are APIs. The fact is they are not APIs.
-Irakli Nadareishvili co-author of the book “Microservice Architecture: Aligning Principles, Practices, and Culture" [7] states that:  
+Just as important it is to understand what microservices are, it is equally important to understand what they are not. There is a common misunderstanding that microservices are APIs. The fact is they are not APIs.  
+
+Irakli Nadareishvili co-author of the book “Microservice Architecture: Aligning Principles, Practices, and Culture" [7] states that:   
 “Microservice architecture is the implementation of your system, it is not public API Interface of your system that external or most internal client should depend directly on"  
 
 The following diagram illustrates the relationship between an API and a Microservice:
-**Figure 1** Microservices are not APIs ­ they are implementation of a system (i.e a bounded context in DDD terms), APIs are public view and interface to the microservice
 
-It is here the definitions provided by Martin Fowler [1], Adrian Cockcroft [2] and Werner Vogel [5] become important, so a microservice is an application built using Microservices Architecture style, that: 
-encapsulates the data with the business logic that operates on the data which provide a well-defined business capability i.e. the service is synonymous with a bounded context, ensures only access to service is through a published service interface i.e. public API, ensures no direct database access is allowed from outside the service, and there's no data sharing among the services i.e. each microservices has it's own database, it does not directly depend on any other service or database outside of its bounded context, i.e. loosely coupled, thus it can be independently deployed 
+**Figure 1** Microservices are not APIs - they are implementation of a system (i.e a bounded context in DDD terms), APIs are public view and interface to the microservice
+
+It is here the definitions provided by Martin Fowler [1], Adrian Cockcroft [2] and Werner Vogel [5] become important, so a microservice is an application built using Microservices Architecture style, that:   
+encapsulates the data with the business logic that operates on the data which provide a well-defined business capability i.e. the service is synonymous with a bounded context, ensures only access to service is through a published service interface i.e. public API, ensures no direct database access is allowed from outside the service, and there's no data sharing among the services i.e. each microservices has it's own database, it does not directly depend on any other service or database outside of its bounded context, i.e. loosely coupled, thus it can be independently deployed.
 
 ## Microservices Architecture Characteristics
-The table below shows charateristics of Microservices Architecture Style from Martin Fowler [1].
+The table below shows charateristics of Microservices Architecture Style from Martin Fowler [1].  
+
 | Characteristic | Notes | 
 | -------------- | ----- | 
 | Componentization via Services | A component is a unit of software that is independently replaceable and upgradeable Main reason for using services as components (rather than libraries) is that services are independently deployable |
@@ -63,11 +66,11 @@ The table below shows charateristics of Microservices Architecture Style from Ma
 | Organized around Business Capabilities | Conway’s Law of system design & communication | 
 | Products not Projects | A team should own a product over its full lifetime Amazon's notion of "you build, you run it" |
 | Design for Failure | Highly distributed in nature and failure is expected, so design for failure |
-| Smart endpoints and dump pipes | Anti-ESB & SOA where pipes are complex, and intelligent | |
-| Evolutionary Architecture & Design | | 
+| Smart endpoints and dump pipes | Anti-ESB & SOA where pipes are complex, and intelligent |   |
+| Evolutionary Architecture & Design |   | 
 | Decentralized Governance | Independent microservice capability evolution with forward compatible service contracts |
-| Stateless & Immutable | Services are designed to be stateless processes which enables fast starts and restarts and fast scaling (i.e. adding processes to scala horizontally)
-| Infrastructure Automation DevOps Culture is mandatory |  |
+| Stateless & Immutable | Services are designed to be stateless processes which enables fast starts and restarts and fast scaling (i.e. adding processes to scala horizontally) |
+| Infrastructure Automation DevOps Culture is mandatory |    |
 
 ## Does a Microservice Need its own Database Server?
 As we stated earlier, the microservice's database is effectively part of the implementation of that service. It cannot be accessed directly by other services.  
