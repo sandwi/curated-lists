@@ -38,9 +38,9 @@ Given microservices are organized around business capability, a Bounded Context 
    
 While Bounded Context decouples domain logic, microservice decouples the technical decisions, performance, scalability, availability, robustness, security and so on. Since a Bounded Context has well-defined responsibility and explicit interface, it requires coordination and synchronization between teams.
 
-Bounded contexts contain clusters of different data entities and processes that can control a significant area of functionality such as order fulfilment or inventory in an online ecommerce store.  Depending on the domain, they can actually be quite large. Hence another approach to defining microservice boundary and right sizing a microservices is needed in these domains. A more finely grained DDD unit is the aggregate which describes a cluster of objects and behaviors that can be treated as a single unit. An aggregate is regarded as the basic unit of data transfer – a classic example is an order that contains a bunch of line items.  
+Bounded contexts contain clusters of different data entities and processes that can control a significant area of functionality such as order fulfilment or inventory in an online ecommerce store.  Depending on the domain, they can actually be quite large. Hence another approach to defining microservice boundary and right sizing a microservices is needed in these domains. A more finely grained DDD unit is the **Aggregate** which describes a cluster of objects and behaviors that can be treated as a single unit. An aggregate is regarded as the basic unit of data transfer – a classic example is an order that contains a bunch of line items.  
 
-Aggregates [2][4] have following properties:  
+**Aggregates** [2][4] have following properties:  
 * An Aggregate is a cluster of Entities and Value objects i.e. an Object Graph.
 * Each aggregate is treated as one single unit.
 * Aggregate boundary is transactional boundary i.e. Entities in an Aggregate are updated in one transaction.
@@ -86,3 +86,16 @@ Evaluate and consider following key technical aspects:
 Follow 2 Pizza Rule (teams shouldn’t be larger than what two pizzas can feed). A microservice can be reasonably developed, implemented and supported by a team of 5-8 engineers ("you build it, you run it") If you need larger team then the microservice is too big.
    
 This is also consistent with Agile practices (scr SAFe) of smaller teams
+
+## Experience APIs or Backend for Frondends (BfF) Pattern
+Also known as **Edge Orchestration**.
+
+In today's world of smart phones, tablets, desktops, smart TVs and so on there is increasing diversity of devices cosnumers use to interact with businesses such as a streming services like Netflix or a consumer bank. Customer experience on devices can vary significantly. Beyond consumer facing UI Apps, there are partner / B2B interfaces and internal facing Apps such the ones used by Contact Centers(CSRs Servicing Apps, and IVRs. In microservices world, a feature or business function exposed to consumers on a device or a partner can and very often will span multiple microservices. A futher challenge is the fact that requirements of consuming Apps can vary siginificantly based on device (native mobile Apps vs desktop web apps vs smart TVs or partner business needs). The payloads may have to be optimized for mobile app experience vs desktop web app. For example number of steps required to open a new account have to be reduced for mobile apps compared to desktop apps to provide a smoother experience on mobile device.
+
+Experience APIs or Backend for Frontends (BfF) pattern address this architectural concern of providing higher order API for different consumer types. Conceptually, one can think of user-facing application as being two components:
+* a client-side application living outside your perimeter, and
+* a server-side component (the Experience API or BfF) inside your perimeter that shapes traffic (request/response)
+
+Following references are a good starting point for Experience APIs and BfF pattern:
+* Sam Newman on [Backend for Frontends](https://samnewman.io/patterns/architectural/bff/) pattern
+* [Experience APIs](https://github.com/sandwi/curated-lists/tree/master/microservices#experience-apis)
