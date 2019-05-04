@@ -1,3 +1,10 @@
+**Table of Content**
+1. [Microservices and Domain-Driven Design](https://github.com/sandwi/curated-lists/blob/master/microservices/microservices-notes/microservices-and-ddd.md#microservices-and-domain-driven-design)
+2. [Bounded Context, Aggregates and Microservices](https://github.com/sandwi/curated-lists/blob/master/microservices/microservices-notes/microservices-and-ddd.md#bounded-context-aggregates-and-microservices)
+3. [Right Sizing a Microservice](https://github.com/sandwi/curated-lists/blob/master/microservices/microservices-notes/microservices-and-ddd.md#right-sizing-a-microservice)
+4. [Experience APIs or Backend for Frondends (BfF) Pattern](https://github.com/sandwi/curated-lists/blob/master/microservices/microservices-notes/microservices-and-ddd.md#experience-apis-or-backend-for-frondends-bff-pattern)
+5. [References](https://github.com/sandwi/curated-lists/blob/master/microservices/microservices-notes/microservices-and-ddd.md#references)
+
 # Microservices and Domain-Driven Design
 Domain-Driven Design (DDD for short) and design patterns accompyning it has been used in the industry for over a decade to tackle complexity of enterprise software development.
 Domain-Driven concepts were introduced by Eric Evans in the seminal work in his book Domain-Driven Design: Tackling Complexity in the heart of Software , published in 2003. 
