@@ -90,9 +90,9 @@ Evaluate and consider following key technical aspects:
 * Operational & Management Overhead: Ready for DevOps and Operational automation to overcome operational & management overhead that is natural with microservices architecture. This includes centralzed logging, monitoring and alerting.
 
 ### Team Size
-Follow 2 Pizza Rule (teams shouldn’t be larger than what two pizzas can feed). A microservice can be reasonably developed, implemented and supported by a team of 5-8 engineers ("you build it, you run it") If you need larger team then the microservice is too big.
+Follow 2 Pizza Rule (teams shouldn’t be larger than what two pizzas can feed). A microservice can be reasonably developed, implemented and supported by a team of 5-8 engineers ("you build it, you run it"). If you need a larger team then the microservice is too big.
    
-This is also consistent with Agile practices (scr SAFe) of smaller teams
+This is also consistent with Agile practices (SAFe) of smaller teams.
 
 ## Experience APIs or Backend for Frondends (BfF) Pattern
 Also known as **Edge Orchestration**.
@@ -120,4 +120,4 @@ Following references are a good starting point for Experience APIs and BfF patte
 10. Neal Ford & Rebecca Parsons (ThoughtWorks): [Microservices as an Evolutionary Architecture]()
 11. [Fallacies of Distributed Computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
 12. Martin Fowler on [Microservices Pre-requisities](https://martinfowler.com/bliki/MicroservicePrerequisites.html)
-13. Marting Fowler on DevOps Culture
+13. Marting Fowler on [DevOps Culture](https://martinfowler.com/bliki/DevOpsCulture.html)
