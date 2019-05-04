@@ -99,3 +99,18 @@ Experience APIs or Backend for Frontends (BfF) pattern address this architectura
 Following references are a good starting point for Experience APIs and BfF pattern:
 * Sam Newman on [Backend for Frontends](https://samnewman.io/patterns/architectural/bff/) pattern
 * [Experience APIs](https://github.com/sandwi/curated-lists/tree/master/microservices#experience-apis)
+
+## References
+1. [The Twelve Factor Application Architecture](https://12factor.net/)
+2. [Domain-Driven Design: Tackling Complexity in the heart of Software](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215) , 1st Edition by Eric Evans
+3. Martin Fowler on [Domain-Driven Design](https://martinfowler.com/tags/domain%20driven%20design.html)
+4. [Implementing Domain-Driven Design](https://www.amazon.com/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577), 1st Edition by Vaughn Vernon
+5. [Domain-Driven Design Community](https://dddcommunity.org/)
+6. [DDD and Microservices: At Last, Some Boundaries!](https://www.youtube.com/watch?v=yPvef9R3k-M) by Eric Evans
+7. Sam Newman's Book [Building Microservices: Designing Fine Grained Systems](https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1491950358), 1st Edition
+8. [Bounded Context Explained](https://blog.sapiensworks.com/post/2012/04/17/DDD-The-Bounded-Context-Explained.aspx)
+9. Adrian Cockroft, Bounded Content on Twitter: https://twitter.com/adrianco/status/871367419813429249
+10. Neal Ford & Rebecca Parsons (ThoughtWorks): [Microservices as an Evolutionary Architecture]()
+11. [Fallacies of Distributed Computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
+12. Martin Fowler on [Microservices Pre-requisities](https://martinfowler.com/bliki/MicroservicePrerequisites.html)
+13. Marting Fowler on DevOps Culture
