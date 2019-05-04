@@ -66,7 +66,7 @@ Thus:
 Start with relatively broad service boundaries to begin with, refactoring to smaller ones as time goes on.
 
 ## Right Sizing a Microservice
-Identifying and right sizing microservices is a challenging exercise. However there are software engineering and infrastructure engineering tools available that help in decomposing an application microservices. DDD is one such software engineering approach we discussed in the previous section. Building on DDD, the sections below provide criteria and guidlines for identifying and right sizing microservices.
+Identifying and right sizing microservices is a challenging exercise. However there are software engineering and infrastructure engineering tools available that help in decomposing an application microservices. DDD is one such software engineering approach we discussed in the previous section. Building on DDD, the sections below provide criteria and guidelines for identifying and right sizing microservices.
 
 ### Domain Model / Business Logic
 A microservice i.e. single deployable unit or service should be no bigger than a bounded context, but no smaller than an aggregate.  
