@@ -52,6 +52,11 @@
 * [Nexus Repository](https://www.sonatype.com/nexus-repository-oss)
 * [JFrog Artifactory](https://jfrog.com/artifactory/)
 * [JFrog Bintray](https://jfrog.com/bintray/)
+* Interesting Gradle Plugins
+  * [Netflix Nebula Plugins](https://nebula-plugins.github.io/)
+  * Automated versioning and tagging to support [Semantic Versioning](https://semver.org/)
+    * [Nebula Release Plugin](https://github.com/nebula-plugins/nebula-release-plugin)
+    * [Gradle Git-Version](https://github.com/palantir/gradle-git-version)
 
 # CI/CD Tools
 * [Jenkins](https://jenkins.io/)
