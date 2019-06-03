@@ -68,7 +68,7 @@ the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fie
   * JWT: https://jwt.io
 * Identity Delegation (On-Behalf-Of) Flows
   * [Delegation Patterns for OAuth2](https://www.scottbrady91.com/OAuth/Delegation-Patterns-for-OAuth-20)
-  * [Microsoft identity platform and OAuth 2.0 On-Behalf-Of flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow)
+  * [Microsoft Identity Platform and OAuth 2.0 On-Behalf-Of flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow)
   * [Draft IETF OAuth Token Exchange Specification](https://tools.ietf.org/html/draft-ietf-oauth-token-exchange-12)
 * JSON Object Signing and Encryption (JOSE) specifications
   * RFC7516 JSON Web Encryption (JWE): https://tools.ietf.org/html/rfc7516
