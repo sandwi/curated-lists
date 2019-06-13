@@ -8,13 +8,13 @@
 | Security Analysis | A security scan is performed with every build cycle or nightly. Critical / High items should cause build breakage. Create stories to address security items in every sprint. | Fortify security scan |  
 | Open Source Scanning | An open source legal and security scan is performed in every build. Use non-compliance to open source policies to break the build. Address Critial/High items in every sprint. Address open source compliance issues early in the cycle so not pick an open source software related issue late in the cycle which can impact development. |  Blackduck |  
 | Artifact Management | Artifacts must be published in an artifact management repository with versioning and metadata about its origin.|  Nexus or Artifactory Repository | 
-| Automated Provisioning of Infrastructure | Use automated provisioning i.e. infrastructure-as-a-code to provision infrastructure in private and on public cloud to automate infrastructure provisioning in Production & Non-Production. | PCF Bosh, AWS CloudFormation, Chef, Puppet, Terraform, Ansible |  
-| Immutable Servers | Non-Prod and Production servers are never modified unless there is emergency incident. They are replaced with automated provisioning. | Docker, Kubernetes, PCF/Cloud Foundry | 
-| Automated Build, Test, Deployment Pipeline | Code changes are built, deployed and tested without manual intervention. | Jenkins, Concourse, TravisCI, Gitlab, CircleCI, CodeShip. Gradle, Maven |  
+| Automated Provisioning of Infrastructure | Use automated provisioning i.e. infrastructure-as-a-code to provision infrastructure in private and on public cloud to automate infrastructure provisioning in Production & Non-Production. | PCF Bosh, AWS CloudFormation, Chef, Puppet, Terraform, Ansible, Spinnaker |  
+| Immutable Servers | Non-Prod and Production servers are never modified unless there is emergency incident. They are replaced with automated provisioning. | Docker, Kubernetes, PCF/Cloud Foundry, Spinnaker | 
+| Automated Build, Test, Deployment Pipeline | Code changes are built, deployed and tested without manual intervention. | CI: Jenkins, Concourse, TravisCI, Gitlab, CircleCI, CodeShip. Gradle, Maven; CD: Spinnaker, Concourse |  
 | Automated Integration Testing | Every deployment has some level of test automation included which perform integration testing as part of the CI/CD pipeline. | TestNG, DBUnit, JsUnit, xUnit, Cucumber, RestAssured, Selenium | 
 | Automated Performance Testing | As part of the CI/CD pipeline, prior to production deployment, performance tests are initiated and key performance metrics are captured and compared to established threshholds for the KPI. Use APM (e.g. New Relic, App Dynamics etc.) to capture performance metrics a alerts. The production deployment should be stopped performance tests fail. | JMeter, Grinder, LoadRunner, BlazeMeter, Gatling, Tsung |
-| Automated Rollback | If deployment process fails, rollback of the application and configuration is automated. Use Blue/Green deployment. |    |  
-| Zero-Downtime Production Releases| Achieve zero downtime through blue/green, canary or N+1 releases. |
+| Automated Rollback | If deployment process fails, rollback of the application and configuration is automated. Use Blue/Green deployment. | Spinnaker, Cloud Foundry |  
+| Zero-Downtime Production Releases| Achieve zero downtime through blue/green, canary or N+1 releases. | Spinnaker, Cloud Formation |
 | Feature Toggle | Use feature toggles to activate/de­activate new features in production via configuration. |  Togglz |
 
 # Version Control
