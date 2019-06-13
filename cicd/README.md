@@ -59,12 +59,18 @@
     * [Gradle Git-Version](https://github.com/palantir/gradle-git-version)
 
 # CI/CD Tools
+**CI**
 * [Jenkins](https://jenkins.io/)
 * [Concourse](https://concourse-ci.org/)
 * [TravisCI](https://travis-ci.org/)
 * [CircleCI](https://circleci.com/) - great for mobile app development with dedicated Mac Machines for builds
+* [GoCD](https://www.gocd.org/)
 * [CloudBees CodeShip](http://codeship.com/)
 * [Gitlab](https://about.gitlab.com/product/continuous-integration/)
+
+**CD**
+ * [Spinnaker](https://www.spinnaker.io/)
+ * [Concourse](https://concourse-ci.org/) - For CD, it will need Spinnaker or Cloud Foundry
 
 # Static Analysis
 ## Code Style, Linting
