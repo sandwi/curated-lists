@@ -9,10 +9,10 @@
 * [ZooKeeper Atomic Broadcast (ZAB)](https://cwiki.apache.org/confluence/display/ZOOKEEPER/Zab1.0)
 
 ## Service Registry
-[Hashicorp Consul](https://www.consul.io/)
-[CoreOS etcd](https://etcd.io/)
-[ZooKeeper](https://zookeeper.apache.org/)
-[Netflix Eureka](https://github.com/Netflix/eureka/wiki)
+* [Hashicorp Consul](https://www.consul.io/)
+* [CoreOS etcd](https://etcd.io/)
+* [ZooKeeper](https://zookeeper.apache.org/)
+* [Netflix Eureka](https://github.com/Netflix/eureka/wiki)
 
 # Resource Schedulers (aka Containerized Workload Managers)
 * [Kubernetes](https://kubernetes.io/)
