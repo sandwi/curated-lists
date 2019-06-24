@@ -16,13 +16,13 @@
 
 # Resource Schedulers (aka Containerized Workload Managers)
 * [Kubernetes](https://kubernetes.io/)
-  * [GOOGLE MADE ITS SECRET BLUEPRINT PUBLIC TO BOOST ITS CLOUD](https://www.wired.com/2015/06/google-kubernetes-says-future-cloud-computing/)
+  * [Google Made Its Secret Blueprint Public to Boost Its Cloud](https://www.wired.com/2015/06/google-kubernetes-says-future-cloud-computing/)
 * Google Borg
   * [Large-scale cluster management at Google with Borg](https://ai.google/research/pubs/pub43438)
   * [Borg: The Predeccesor to Kubernetes](https://kubernetes.io/blog/2015/04/borg-predecessor-to-kubernetes/)
   * [What Google Learned From the Borg About Container Management](https://thenewstack.io/google-learned-borg-container-management/)
-  * [YOU WANT TO BUILD AN EMPIRE LIKE GOOGLE'S? THIS IS YOUR OS](https://www.wired.com/2016/04/want-build-empire-like-googles-os/)
-  * [RETURN OF THE BORG: HOW TWITTER REBUILT GOOGLE'S SECRET WEAPON](https://www.wired.com/2013/03/google-borg-twitter-mesos/)
+  * [You Want To Build an Empire Like Google's? This is Your OS](https://www.wired.com/2016/04/want-build-empire-like-googles-os/)
+  * [Return of the Borg: How Twitter Rebuilt Google's Secret Weapon](https://www.wired.com/2013/03/google-borg-twitter-mesos/)
 * Google Omega
   * [Omega: flexible, scalable schedulers for large compute clusters](https://ai.google/research/pubs/pub41684)
   * [Borg, Omega, and Kubernetes](https://queue.acm.org/detail.cfm?id=2898444)
