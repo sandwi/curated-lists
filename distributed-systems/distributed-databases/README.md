@@ -8,6 +8,7 @@
 * [Database Sharding How Does It Work?](https://severalnines.com/blog/database-sharding-how-does-it-work)
 * [Understanding Database Sharding](https://www.digitalocean.com/community/tutorials/understanding-database-sharding)
 * [How Data Sharding Works in a Distributed SQL Database](https://blog.yugabyte.com/how-data-sharding-works-in-a-distributed-sql-database/)
+* [Challenges of Sharding MySQL](https://www.clustrix.com/bettersql/challenges-sharding-mysql/)
 * [MySQL Sharding Models for SaaS Applications](https://www.percona.com/blog/2017/01/30/mysql-sharding-models-for-saas-applications/)
 
 ## Interesting Reads, Blogs. Arcticles
