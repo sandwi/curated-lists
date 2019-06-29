@@ -28,3 +28,11 @@
   * [Borg, Omega, and Kubernetes](https://queue.acm.org/detail.cfm?id=2898444)
 * [Mesos](http://mesos.apache.org/)
 * [Cloud Foundry Diego](https://docs.cloudfoundry.org/concepts/diego/diego-architecture.html)
+
+# Consistent Hashing
+* [Consistent Hashing](https://en.wikipedia.org/wiki/Consistent_hashing)
+* [Michael Nielsen's Blog on Consistent Hashing](http://michaelnielsen.org/blog/consistent-hashing/)
+* [Good Read on Consistent Hashing](https://www.ably.io/blog/implementing-efficient-consistent-hashing)
+* Implementations
+  * [Tom White's Java Implementation](https://web.archive.org/web/20120605030524/http://weblogs.java.net/blog/tomwhite/archive/2007/11/consistent_hash.html)
+  * [Cloudera's Java Implementation](https://github.com/cloudera/flume/blob/master/flume-core/src/main/java/com/cloudera/util/consistenthash/ConsistentHash.java)
