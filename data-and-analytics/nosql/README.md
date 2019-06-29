@@ -19,9 +19,18 @@
 # Column-Family NoSQL Databases
 ## Cassandra
 ### Data Modeling
-- []()
+* [Basic Rules of Cassandra Data Modeling](https://www.datastax.com/dev/blog/basic-rules-of-cassandra-data-modeling)
+* [EBay's Blog on Cassandra Data Modeling Best Practices Part 1](https://www.ebayinc.com/stories/blogs/tech/cassandra-data-modeling-best-practices-part-1/)
+* [Designing data models for Cassandra](https://www.oreilly.com/ideas/cassandra-data-modeling)
+* [Cassandra Data Modeling: Primary, Clustering, Partition, and Compound Keys](https://dzone.com/articles/cassandra-data-modeling-primary-clustering-partiti)
+* [Understand the Cassandra data model](https://pandaforme.gitbooks.io/introduction-to-cassandra/content/understand_the_cassandra_data_model.html)
 
 # Graph Databases
+* [Neo4j](https://neo4j.com/)
+* [Graph Databases for Beginners](https://neo4j.com/blog/why-graph-databases-are-the-future/)
+* [OrientDB](https://orientdb.com/graph-database/)
+* [Amazon Neptune- The Graph Databases Defined](https://aws.amazon.com/nosql/graph/)
+
 
 
 
