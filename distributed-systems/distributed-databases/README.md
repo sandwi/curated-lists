@@ -3,6 +3,7 @@
   * [Spanner: Google Globally Distributed-Database](https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
   * [Implementing Distributed Transactions the Google Way: Percolator vs. Spanner](https://medium.com/yugabyte/implementing-distributed-transactions-the-google-way-percolator-vs-spanner-6cbccfc1f2ed)
 * [YugaByte DB](https://www.yugabyte.com/)
+* [Microsoft CosmosDB](https://azure.microsoft.com/en-us/services/cosmos-db/)
 
 # Database Sharding
 * [Database Sharding How Does It Work?](https://severalnines.com/blog/database-sharding-how-does-it-work)
