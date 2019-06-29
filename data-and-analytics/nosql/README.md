@@ -5,7 +5,7 @@
 1. [Graph Databases](https://github.com/sandwi/curated-lists/blob/master/data-and-analytics/nosql/README.md#graph-databases)
   
    
-[DB-Engines] (https://db-engines.com/en/) - For Comprehensive listing of various NoSQL Databases
+[DB-Engines](https://db-engines.com/en/) - For Comprehensive listing of various NoSQL Databases
 
 ## Key-Value Databases
 ### DynamoDB
