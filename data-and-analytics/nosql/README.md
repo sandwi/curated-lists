@@ -1,7 +1,7 @@
 **Table of Contents**
 1. [Key-Value Databases](https://github.com/sandwi/curated-lists/blob/master/data-and-analytics/nosql/README.md#key-value-databases)
 1. [Document Databases](https://github.com/sandwi/curated-lists/blob/master/data-and-analytics/nosql/README.md#document-databases)
-1. [Column-Family Databases](https://github.com/sandwi/curated-lists/blob/master/data-and-analytics/nosql/README.md#key-value-databases)
+1. [Column-Family Databases](https://github.com/sandwi/curated-lists/blob/master/data-and-analytics/nosql/README.md#column-family-nosql-databases)
 1. [Graph Databases](https://github.com/sandwi/curated-lists/blob/master/data-and-analytics/nosql/README.md#graph-databases)
   
    
