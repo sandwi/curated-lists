@@ -1,8 +1,11 @@
 **Table of Contents**
-1. [Key-Value Databases]()
-1. [Document Databases]]()
-1. [Column-Family Databases]()
-1. [Graph Databases]()
+1. [Key-Value Databases](https://github.com/sandwi/curated-lists/blob/master/data-and-analytics/nosql/README.md#key-value-databases)
+1. [Document Databases]](https://github.com/sandwi/curated-lists/blob/master/data-and-analytics/nosql/README.md#document-databases)
+1. [Column-Family Databases](https://github.com/sandwi/curated-lists/blob/master/data-and-analytics/nosql/README.md#key-value-databases)
+1. [Column-Family Databases](https://github.com/sandwi/curated-lists/blob/master/data-and-analytics/nosql/README.md#column-family-databases)
+1. [Graph Databases](https://github.com/sandwi/curated-lists/blob/master/data-and-analytics/nosql/README.md#graph-databases)
+  
+   
 [DB-Engines] (https://db-engines.com/en/) - For Comprehensive listing of various NoSQL Databases
 
 ## Key-Value Databases
