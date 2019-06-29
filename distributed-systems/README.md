@@ -1,3 +1,11 @@
+**Table of Contents**
+1. [Distributed Systems Bulding Blocks](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/README.md)
+   1. [Consensus Protocols](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/README.md#consensus-protocols)
+   1. [Service Registry](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/README.md#service-registry)
+   1. [Consistent Hashing](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/README.md#consistent-hashing)
+1. [Resource Schedulers](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/README.md#resource-schedulers-aka-containerized-workload-managers)
+   
+   
 # Distributed Systems Building Blocks
 ## Consensus Protocols
 * Paxos
@@ -13,6 +21,14 @@
 * [CoreOS etcd](https://etcd.io/)
 * [ZooKeeper](https://zookeeper.apache.org/)
 * [Netflix Eureka](https://github.com/Netflix/eureka/wiki)
+  
+## Consistent Hashing
+* [Consistent Hashing](https://en.wikipedia.org/wiki/Consistent_hashing)
+* [Michael Nielsen's Blog on Consistent Hashing](http://michaelnielsen.org/blog/consistent-hashing/)
+* [Good Read on Consistent Hashing](https://www.ably.io/blog/implementing-efficient-consistent-hashing)
+* Implementations
+  * [Tom White's Java Implementation](https://web.archive.org/web/20120605030524/http://weblogs.java.net/blog/tomwhite/archive/2007/11/consistent_hash.html)
+  * [Cloudera's Java Implementation](https://github.com/cloudera/flume/blob/master/flume-core/src/main/java/com/cloudera/util/consistenthash/ConsistentHash.java)
 
 # Resource Schedulers (aka Containerized Workload Managers)
 * [Kubernetes](https://kubernetes.io/)
@@ -29,10 +45,3 @@
 * [Mesos](http://mesos.apache.org/)
 * [Cloud Foundry Diego](https://docs.cloudfoundry.org/concepts/diego/diego-architecture.html)
 
-# Consistent Hashing
-* [Consistent Hashing](https://en.wikipedia.org/wiki/Consistent_hashing)
-* [Michael Nielsen's Blog on Consistent Hashing](http://michaelnielsen.org/blog/consistent-hashing/)
-* [Good Read on Consistent Hashing](https://www.ably.io/blog/implementing-efficient-consistent-hashing)
-* Implementations
-  * [Tom White's Java Implementation](https://web.archive.org/web/20120605030524/http://weblogs.java.net/blog/tomwhite/archive/2007/11/consistent_hash.html)
-  * [Cloudera's Java Implementation](https://github.com/cloudera/flume/blob/master/flume-core/src/main/java/com/cloudera/util/consistenthash/ConsistentHash.java)
