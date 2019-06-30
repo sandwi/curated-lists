@@ -51,7 +51,6 @@
 # Column-Family NoSQL Databases
 * Google BigTable
   * [Google BigTable Paper - Bigtable: A Distributed Storage System for Structured Data](https://research.google.com/archive/bigtable-osdi06.pdf)
-
 * Apache Cassandra
   * [Apache Cassandra](http://cassandra.apache.org/)
   * Data Modeling
@@ -60,6 +59,7 @@
     * [Designing data models for Cassandra](https://www.oreilly.com/ideas/cassandra-data-modeling)
     * [Cassandra Data Modeling: Primary, Clustering, Partition, and Compound Keys](https://dzone.com/articles/cassandra-data-modeling-primary-clustering-partiti)
     * [Understand the Cassandra data model](https://pandaforme.gitbooks.io/introduction-to-cassandra/content/understand_the_cassandra_data_model.html)
+* [Apache HBase](http://hbase.apache.org/)
 
 ## Cloud Column-Family Databases
 * Google BigTable
@@ -79,7 +79,11 @@
 * [Microsoft Azure CosmoDB](https://azure.microsoft.com/en-us/services/cosmos-db/) - Globally distributed, horizontally scalable, multi-model database service
 * [Amazon Neptune- The Graph Databases Defined](https://aws.amazon.com/nosql/graph/)
 
-
+# Time-Series Databases
+* [InfluxDB](https://www.influxdata.com/products/influxdb-overview/)
+* [TimescaleDB](www.timescale.com)
+* [OpenTSDB](http://opentsdb.net/)
+* [Apache Druid](https://druid.apache.org/) - Multi-Model DB, primarily time-series database
 
 
 
