@@ -8,8 +8,9 @@
 [DB-Engines](https://db-engines.com/en/) - For Comprehensive listing of various NoSQL Databases
 
 # Key-Value Databases
-* [Redis](https://redis.io/)
-* [Memcached](http://www.memcached.org/)
+* Simple Caches (In-Memory K-V Stores)
+  * [Redis](https://redis.io/) - More of a data structure server, includes K-V
+  * [Memcached](http://www.memcached.org/)
 * In-Memory Data Grids (IMDGs)
   * [Apache Geode](https://geode.apache.org/) - Open Sourced Pivotal GemFire
     * [Pivotal GemFire](https://pivotal.io/pivotal-gemfire) - In-Memory Data Grid & Database with optional persistence
