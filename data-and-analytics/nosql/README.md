@@ -3,7 +3,7 @@
 1. [Document Databases](https://github.com/sandwi/curated-lists/blob/master/data-and-analytics/nosql/README.md#document-databases)
 1. [Column-Family Databases](https://github.com/sandwi/curated-lists/blob/master/data-and-analytics/nosql/README.md#column-family-nosql-databases)
 1. [Graph Databases](https://github.com/sandwi/curated-lists/blob/master/data-and-analytics/nosql/README.md#graph-databases)
-  
+1. [Time-Series Databases](https://github.com/sandwi/curated-lists/blob/master/data-and-analytics/nosql/README.md#time-series-databases)  
    
 [DB-Engines](https://db-engines.com/en/) - For Comprehensive listing of various NoSQL Databases
 
