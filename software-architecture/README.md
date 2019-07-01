@@ -1,3 +1,8 @@
+**Table of Content**
+1. [Software Architecture Papers](https://github.com/sandwi/curated-lists/blob/master/software-architecture/README.md#software-architecture-papers)
+1. [Great Books](https://github.com/sandwi/curated-lists/blob/master/software-architecture/README.md#great-books)
+1. [Blog & Articles](https://github.com/sandwi/curated-lists/blob/master/software-architecture/README.md#blogs--articles)
+
 # Software Architecture Papers
 * [Foundations for the Study of Software Architecture (1992) - Perry & Wolf](http://users.ece.utexas.edu/~perry/work/papers/swa-sen.pdf) - one of the foundational papers on software architecture, defines a model of software architecture, worth a read
 * [An Introduction to Software Architecture (1993) - David Garlan & Mary Shaw](http://www.cs.cmu.edu/afs/cs/project/vit/ftp/pdf/intro_softarch.pdf) - one of the early papers and considered foundational papers in software architecture, including listing of common architecture styles
