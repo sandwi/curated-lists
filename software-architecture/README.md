@@ -1,5 +1,5 @@
 # Software Architecture Papers
-* [Foundations for the Study of Software Architecture (1992 - Perry & Wolf](http://users.ece.utexas.edu/~perry/work/papers/swa-sen.pdf) - one of the foundational papers on software architecture, defines a model of software architecture, worth a read
+* [Foundations for the Study of Software Architecture (1992) - Perry & Wolf](http://users.ece.utexas.edu/~perry/work/papers/swa-sen.pdf) - one of the foundational papers on software architecture, defines a model of software architecture, worth a read
 * [An Introduction to Software Architecture (1993) - David Garlan & Mary Shaw](http://www.cs.cmu.edu/afs/cs/project/vit/ftp/pdf/intro_softarch.pdf) - one of the early papers and considered foundational papers in software architecture, including listing of common architecture styles
 * [CMU Reports - Software Architecture: An Executive Overview - Clements & Northrop](https://resources.sei.cmu.edu/asset_files/TechnicalReport/1996_005_001_16457.pdf)
 
