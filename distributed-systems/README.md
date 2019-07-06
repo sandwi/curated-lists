@@ -25,7 +25,7 @@
 ## Consistent Hashing
 * Original Paper that described Consistent Hashing (theoretical paper) by David Karger et. al., [Consistent Hashing and Random Trees: Distributed Caching Protocols for Relieving Hot Spots on the World Wide Web](https://www.cs.princeton.edu/courses/archive/fall09/cos518/papers/chash.pdf)
 * Paper from original authors describing an implementation for web caches using consistent hashing by David Karger et.al., [Web Caching with Consistent Hashing](https://web.archive.org/web/20120504040223/http://www8.org/w8-papers/2a-webserver/caching/paper2.html)
-* [Consistent Hashing](https://en.wikipedia.org/wiki/Consistent_hashing)
+* Wikipedia enttry on [Consistent Hashing](https://en.wikipedia.org/wiki/Consistent_hashing)
 * [Michael Nielsen's Blog on Consistent Hashing](http://michaelnielsen.org/blog/consistent-hashing/)
 * [Good Read on Consistent Hashing](https://www.ably.io/blog/implementing-efficient-consistent-hashing)
 * Implementations
