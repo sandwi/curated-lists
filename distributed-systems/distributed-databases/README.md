@@ -13,7 +13,7 @@
 * [MySQL Sharding Models for SaaS Applications](https://www.percona.com/blog/2017/01/30/mysql-sharding-models-for-saas-applications/)
 
 # NoSQL
-* [NoSQL List](https://github.com/sandwi/curated-lists/tree/master/data-and-analytics/nosql)
+* [NoSQL List](https://github.com/sandwi/curated-lists/tree/master/distributed-systems/nosql)
 # Interesting Reads, Blogs. Arcticles
 * [6 Signs You Might be Misunderstanding ACID Transactions in Distributed-Databases](https://blog.yugabyte.com/6-signs-you-might-be-misunderstanding-acid-transactions-in-distributed-databases/)
 * [Practical Tradeoffs in Google Cloud Spanner, Azure Cosmos DB and YugaByte DB](https://blog.yugabyte.com/practical-tradeoffs-in-google-cloud-spanner-azure-cosmos-db-and-yugabyte-db/)
