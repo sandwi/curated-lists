@@ -1,3 +1,11 @@
+# CAP Theorem
+* Eric Brewer's keynote speech at Principles of Distributed Computing conference in 2000 where CAP was presented as a tension between correctness and being available in a distributed system [Towards Robust Distributed Systems](https://people.eecs.berkeley.edu/~brewer/cs262b-2004/PODC-keynote.pdf)
+* Research paper that prooved CAP [Brewer’s conjecture and the feasibility of consistent, available, partition-tolerant web services](https://users.ece.cmu.edu/~adrian/731-sp04/readings/GL-cap.pdf)
+* Eric Brewer on [CAP Twelve Years Later: How the "Rules" Have Changed](https://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed/)
+* [CAP Theorem Revisited](http://robertgreiner.com/2014/08/cap-theorem-revisited/)
+* Wikipedia Entry [CAP Theorem](https://en.wikipedia.org/wiki/CAP_theorem)
+* Eric Brewer [Inside Cloud Spanner and the CAP Theorem](https://cloud.google.com/blog/products/gcp/inside-cloud-spanner-and-the-cap-theorem)
+
 # Distributed Databases - Relational
 * [Google Spanner](https://cloud.google.com/spanner/)
   * [Spanner: Google Globally Distributed-Database](https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
