@@ -31,6 +31,12 @@
 * Implementations
   * [Tom White's Java Implementation](https://web.archive.org/web/20120605030524/http://weblogs.java.net/blog/tomwhite/archive/2007/11/consistent_hash.html)
   * [Cloudera's Java Implementation](https://github.com/cloudera/flume/blob/master/flume-core/src/main/java/com/cloudera/util/consistenthash/ConsistentHash.java)
+ 
+ ## Bloom Filters
+ Bloom filters are very useful data structures and are used by distributed databases like BitTable or Cassandra or relational databases like Oracle, Postgres etc to avoid  disk lookups for non-existent rows or columns.
+ * Wikipedia Entry on [Bloom Filter](https://en.wikipedia.org/wiki/Bloom_filter)
+ * [Bloom Filters by Example](https://llimllib.github.io/bloomfilter-tutorial/)
+ * Google Guava's [Bloom Filter](https://github.com/google/guava/wiki/HashingExplained#bloomfilter)
 
 # Resource Schedulers (aka Containerized Workload Managers)
 * [Kubernetes](https://kubernetes.io/)
