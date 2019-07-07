@@ -1,6 +1,6 @@
 **Table of Contents**
 1. [CAP Theorem](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/distributed-databases/README.md#cap-theorem)
-1. [Distributed Databases - Relationa](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/distributed-databases/README.md#distributed-databases---relational)
+1. [Distributed Databases - Relational](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/distributed-databases/README.md#distributed-databases---relational)
 1. [Database Sharding](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/distributed-databases/README.md#database-sharding)
 1. [NoSQL](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/distributed-databases/README.md#nosql)
 1. [Interesting Reads, Blogs. Arcticles](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/distributed-databases/README.md#interesting-reads-blogs-arcticles)
