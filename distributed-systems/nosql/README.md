@@ -1,5 +1,5 @@
 **Table of Contents**
-1. [NoSQL Concepts](https://github.com/sandwi/curated-lists/tree/master/distributed-systems/nosql#nosql-definition)
+1. [NoSQL Concepts](https://github.com/sandwi/curated-lists/tree/master/distributed-systems/nosql#nosql-concepts)
 1. [Key-Value Databases](https://github.com/sandwi/curated-lists/tree/master/distributed-systems/nosql#key-value-databases)
 1. [Document Databases](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/nosql/README.md#document-databases)
 1. [Column-Family Databases](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/nosql/README.md#column-family-nosql-databases)
