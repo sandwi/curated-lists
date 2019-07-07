@@ -3,6 +3,7 @@
    1. [Consensus Protocols](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/README.md#consensus-protocols)
    1. [Service Registry](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/README.md#service-registry)
    1. [Consistent Hashing](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/README.md#consistent-hashing)
+   1. [Bloom Filters](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/README.md#bloom-filters)
 1. [Resource Schedulers](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/README.md#resource-schedulers-aka-containerized-workload-managers)
    
    
