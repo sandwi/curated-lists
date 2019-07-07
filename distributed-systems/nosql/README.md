@@ -1,4 +1,5 @@
 **Table of Contents**
+1. [NoSQL Concepts](https://github.com/sandwi/curated-lists/tree/master/distributed-systems/nosql#nosql-definition)
 1. [Key-Value Databases](https://github.com/sandwi/curated-lists/tree/master/distributed-systems/nosql#key-value-databases)
 1. [Document Databases](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/nosql/README.md#document-databases)
 1. [Column-Family Databases](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/nosql/README.md#column-family-nosql-databases)
@@ -6,6 +7,13 @@
 1. [Time-Series Databases](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/nosql/README.md#time-series-databases)  
    
 [DB-Engines](https://db-engines.com/en/) - For Comprehensive listing of various NoSQL Databases
+
+# NoSQL Concepts
+* Wikipedia Entry on [NoSQL](https://en.wikipedia.org/wiki/NoSQL)
+* Martin Fowler's definition [NosqlDefinition](https://martinfowler.com/bliki/NosqlDefinition.html)
+* [CAP Theorem](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/distributed-databases/README.md#cap-theorem)
+* Werner Vogel's [Eventually Consistent - Revisited](https://www.allthingsdistributed.com/2008/12/eventually_consistent.html)
+* [BASE: An Alternative to ACID](https://queue.acm.org/detail.cfm?id=1394128)
 
 # Key-Value Databases
 * Simple Caches (In-Memory K-V Stores)
