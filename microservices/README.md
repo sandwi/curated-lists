@@ -73,7 +73,7 @@ Public APIs can be REST, gRPC or message based as in Reactive Microservices or a
 # Distributed Tracing
 Observability is an important operational requirement in microservices architecture. 
 * Google Dapper Paper on Distributed Tracing, [Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://ai.google/research/pubs/pub36356)
-* [Open Zipkin](https://zipkin.io/)
-* [Open Tracing](https://opentracing.io/)
-* CNCF [Jaeger](https://www.jaegertracing.io/)
+* [Open Tracing](https://opentracing.io/) - An open specification
+* [Open Zipkin](https://zipkin.io/) - Originally created by Twitter based on Google Dapper paper
+* CNCF [Jaeger](https://www.jaegertracing.io/) - Originally created by Uber, again inspired by Google Dapper paper
 * New Relic [Distributed Tracing](https://docs.newrelic.com/docs/understand-dependencies/distributed-tracing/get-started/introduction-distributed-tracing)
