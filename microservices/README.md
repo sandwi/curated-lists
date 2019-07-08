@@ -4,6 +4,7 @@
 * [Domain Driven Design](https://github.com/sandwi/curated-lists/tree/master/microservices#domain-driven-design)
 * [Reactive Microservices with Command Query Responsibility Segregation (CQRS) & Event Sourcing](https://github.com/sandwi/curated-lists/tree/master/microservices#command-query-responsibility-segregation-cqrs--event-sourcing)
 * [Microservices & APIs](https://github.com/sandwi/curated-lists/tree/master/microservices#microservices--apis)
+* [Distributed Tracing](https://github.com/sandwi/curated-lists/tree/master/microservices#distributed-tracing)
 
 # Microservices Architecture Introduction & Definitions
 * Martin Fowler's Bliki write on microservices, [Microservices - A definitions of this new architectural term](https://martinfowler.com/articles/microservices.html)
@@ -68,3 +69,11 @@ Public APIs can be REST, gRPC or message based as in Reactive Microservices or a
   * [Why REST Keeps Me Up At Night](https://www.programmableweb.com/news/why-rest-keeps-me-night/2012/05/15)
   * [Engineering Trade-Offs and The Netflix API Re-Architecture](https://medium.com/netflix-techblog/engineering-trade-offs-and-the-netflix-api-re-architecture-64f122b277dd)
   * [Embracing the Differences : Inside the Netflix API Redesign](https://medium.com/netflix-techblog/embracing-the-differences-inside-the-netflix-api-redesign-15fd8b3dc49d)
+
+# Distributed Tracing
+Observability is an important operational requirement in microservices architecture. 
+* Google Dapper Paper on Distributed Tracing, [Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://ai.google/research/pubs/pub36356)
+* [Open Zipkin](https://zipkin.io/)
+* [Open Tracing](https://opentracing.io/)
+* CNCF [Jaeger](https://www.jaegertracing.io/)
+* New Relic [Distributed Tracing](https://docs.newrelic.com/docs/understand-dependencies/distributed-tracing/get-started/introduction-distributed-tracing)
