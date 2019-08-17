@@ -61,7 +61,7 @@ Given that an aggregate is a cohesive unit, it can be a reasonable indicator of 
 
 However, choosing Aggregate as boundary of a microservice can lead to a very granular microservice and result in following problems:  
 * Tends to give rise to anaemic services that do little more than expose CRUD-style methods
-* degenerates to grouping data entities together rather than encapsulating business capabilities
+* Degenerates to grouping data entities together rather than encapsulating business capabilities
 * Can lead to a very “chatty” service infrastructure where the majority of processing time is spent on remote calls between services
   
 Aggregate as a boundary for a microservice is useful in domains where a bounded context is large or anytime you find a bounded context that is very large and there is a need to find a smaller microservice.
@@ -73,31 +73,30 @@ Thus:
 Start with relatively broad service boundaries to begin with, refactoring to smaller ones as time goes on.
 
 ## Right Sizing a Microservice
-Identifying and right sizing microservices is a challenging exercise. However there are software engineering and infrastructure engineering tools available that help in decomposing an application microservices. DDD is one such software engineering approach we discussed in the previous section. Building on DDD, the sections below provide criteria and guidelines for identifying and right sizing microservices.
+Identifying and right sizing microservices is a challenging exercise. However there are software engineering and infrastructure engineering tools available that help in decomposing an application into suite of microservices. DDD is one such software engineering approach we discussed in the previous section. A few popular criteria and guidelines for identifying and right sizing microservices are discussed in the next few sections.
 
 ### Domain Model / Business Logic
-A microservice i.e. single deployable unit or service should be no bigger than a bounded context, but no smaller than an aggregate.  
+As discussed earlier a microservice i.e. single deployable unit or service should be no bigger than a bounded context, but no smaller than an aggregate.  
 
 Start with relatively broad service boundaries to begin with, refactoring to smaller ones as time goes on. Analyze the building blocks: Aggregate, Entities, Business Logic. Decompose Bounded Context, and hence microservice as Bounded Context grows over time and maintain Single Responsibility Principle.
   
-DDD principles provide a logical and systematic way to model microservices. Microservices are not static, overtime they grow or shrink. Microservices is an example of Evolutionary Architecture [10]. It is important to continously monitor the and size of a microservice ensuring it is consistent with Single Responsibility Principle. Splitting microservices to enforce Single Resposibility Principle may be needed overtime.
+DDD principles provide a logical and systematic way to model microservices. Microservices are not static, overtime they grow or shrink. Microservices is an example of Evolutionary Architecture [10]. It is important to continously monitor the and size of a microservice ensuring it is consistent with Single Responsibility Principle. Splitting microservices to enforce Single Resposibility Principle may be needed overtime. Or vice versa, combining microservices into one microservices may be needed in some situations, if for some reason too granular services were chosen to start and overtime they may have become too dependent on each other to provide a business capability.
 
 ### Technical, Deployment, Management & Operational 
 Evaluate and consider following key technical aspects:   
-* Deployment: Need for independent deployments to support Rate of Evolution & Change of business capabilities
-* Scalability & Peformance: Ability to meet performance & scalability requirements without dependency on any other external system Microservices, following stateless process model can be scaled efificently.
-* Reliability (Availabilty & Resiliency): Cloud Native & microservices architecture enables higher resiliency if platform and infrastructure is architected using cloud native/12 factor app architecture principles.
-* Operational & Management Overhead: Ready for DevOps and Operational automation to overcome operational & management overhead that is natural with microservices architecture. This includes centralzed logging, monitoring and alerting.
+* **Deployment:** Need for independent deployments to support Rate of Evolution & Change of business capabilities
+* **Scalability & Peformance:** Ability to meet performance & scalability requirements without dependency on any other external system Microservices, following stateless process model can be scaled efificently.
+* **Reliability (Availabilty & Resiliency):** Cloud Native & microservices architecture enables higher resiliency if platform and infrastructure is architected using cloud native/12 factor app architecture principles.
+* **Operational & Management Overhead:** Ready for DevOps and Operational automation to overcome operational & management overhead that is natural with microservices architecture. This includes centralzed logging, monitoring and alerting.
 
 ### Team Size
-Follow 2 Pizza Rule (teams shouldn’t be larger than what two pizzas can feed). A microservice can be reasonably developed, implemented and supported by a team of 5-8 engineers ("you build it, you run it"). If you need a larger team then the microservice is too big.
+Follow 2 Pizza Rule popularized by Amazon (teams shouldn’t be larger than what two pizzas can feed). A microservice can be reasonably developed, implemented and supported by a team of 5-8 engineers (using Amazon's model "you build it, you run it"). If you need a larger team then the microservice is too big.
    
-This is also consistent with Agile practices (SAFe) of smaller teams.
+This is also consistent with Agile practices (SAFe) of smaller teams which are typicall not larger than 8 engineers.
 
 ## Experience APIs or Backend for Frondends (BfF) Pattern
-Also known as **Edge Orchestration**.
 
-In today's world of smart phones, tablets, desktops, smart TVs and so on there is increasing diversity of devices cosnumers use to interact with businesses such as a streming services like Netflix or a consumer bank. Customer experience on devices can vary significantly. Beyond consumer facing UI Apps, there are partner / B2B interfaces and internal facing Apps such the ones used by Contact Centers(CSRs Servicing Apps, and IVRs. In microservices world, a feature or business function exposed to consumers on a device or a partner can and very often will span multiple microservices. A futher challenge is the fact that requirements of consuming Apps can vary siginificantly based on device (native mobile Apps vs desktop web apps vs smart TVs or partner business needs). The payloads may have to be optimized for mobile app experience vs desktop web app. For example number of steps required to open a new account have to be reduced for mobile apps compared to desktop apps to provide a smoother experience on mobile device.
+In today's world of smart phones, tablets, desktops, smart TVs, voice-enabled apps and so on there is increasing diversity of devices cosnumers use to interact with a products and services provided by an enterprise (government, businesses, educational institutions etc.) such as a streaming services like Netflix or servicing by a consumer bank or tele-medicine by healthcare providers. Customer experience on devices can vary significantly. Beyond consumer facing UI Apps, there are partner / B2B interfaces and internal facing Apps such the ones used by Contact Centers (call centers or IVRs). Ths a feature or business function exposed to consumers on a device or a partner can and very often will span multiple microservices. A futher challenge is the fact that requirements of consuming Apps can vary siginificantly based on device (native mobile Apps vs desktop web apps vs smart TVs or voice-enabled apps or partner business needs). The payloads may have to be optimized for mobile app experience vs desktop web app. For example number of steps required to open a new account have to be reduced for mobile apps compared to desktop apps to provide a smoother experience on mobile device.
 
 Experience APIs or Backend for Frontends (BfF) pattern address this architectural concern of providing higher order API for different consumer types. Conceptually, one can think of user-facing application as being two components:
 * a client-side application living outside your perimeter, and
