@@ -1,10 +1,7 @@
 # What is a Microservice?
-Here we define Microservice Architecture as widely understood in the technology industry, using definitions from industry experts.
-The content here provides necessary background, motivation and rationale for  Microservices Architecture definitions.
-
-We start with stating that all industry definitions fundamentally ascribe to the notion that Microservices are an Application Architecture Pattern or Architecture Style, 
-that is, it is an architecture pattern used to construct an application with well-defined software architecture principles. Throughout this document the term Microservices means Microservices Architecture Style or Microservices Architecture Pattern or Microservices Architecture 
-and we use the term interchangeably except where we explicitly separate a microservice from architecture style.
+We start with stating that all industry definitions think of Microservices as an Application Architecture Pattern or Architecture Style, 
+that is, it is an architecture pattern used to construct an application with well-defined software architecture principles. Thus the term Microservices means Microservices Architecture Style or Microservices Architecture Pattern or Microservices Architecture 
+and are used interchangeably.
 
 ## Martin Fowler's definition of Microservices [1]
 The microservice architectural style is an approach to developing a single application:   
@@ -47,10 +44,10 @@ Chris Richardson, who was an architect at Netflix and a prominent author, traine
 The site uses famous Gang of Four (GoF) Architecture Pattern documentation template to document Microservices Architecture Pattern. The pattern has concepts very close to one defined by Martin Fowler that we covered earlier. We will not reproduce that pattern here but direct the reader to read the pattern on the [microsercices.io](https://microservices.io/) website.
 
 ## Final Thoughts
-Martin Fowler's definition is often used as an industry reference point. Real world pragmatism, particularly when migrating from legacy applications will relax a few constraints from the definition to meet needs. For example it may not be possible to have a database server per microservice.
+Martin Fowler's definition is often used as an industry reference point. Real world pragmatism, particularly when migrating from legacy applications will relax a few constraints from the definition to meet needs in a given context. For example it may not be possible to have a database server per microservice.
 
 ## What Microservices are not!
-Just as important it is to understand what microservices are, it is equally important to understand what they are not. There is a common misunderstanding that microservices are APIs. The fact is they are not APIs.  
+Just as important it is to understand what microservices architecture is, it is equally important to understand what it is not. There is a common misunderstanding that microservices are APIs. The fact is they are not APIs. A second misunderstanding is that the architecture requires use of RESTful API, it doesn't.
 
 Irakli Nadareishvili co-author of the book “Microservice Architecture: Aligning Principles, Practices, and Culture" [7] states that:   
 “Microservice architecture is the implementation of your system, it is not public API Interface of your system that external or most internal client should depend directly on"  
@@ -60,11 +57,13 @@ The following diagram illustrates the relationship between an API and a Microser
   
 **Figure 1** Microservices are not APIs - they are implementation of a system (i.e a bounded context in DDD terms), APIs are public view and interface to the microservice
 
-It is here the definitions provided by Martin Fowler [1], Adrian Cockcroft [2] and Werner Vogel [5] become important, so a microservice is an application built using Microservices Architecture style, that:   
+It is here the definitions provided by Martin Fowler [1] or Adrian Cockcroft [2] become important: a microservice is an application built using Microservices Architecture style, that is, it:   
 * encapsulates the data with the business logic that operates on the data which provide a well-defined business capability i.e. the service is synonymous with a bounded context
 * ensures only access to service is through a published service interface i.e. public API
 * ensures no direct database access is allowed from outside the service, and there's no data sharing among the services i.e. each microservices has it's own database
 * ensures it does not directly depend on any other service or database outside of its bounded context, i.e. loosely coupled, thus it can be independently deployed.
+
+The public API can be RESTful or RPC based (such as using gRPC) or message based (reactive microservices, using RabbitMQ or Kafka for example).
 
 ## Microservices Architecture Characteristics
 The table below shows charateristics of Microservices Architecture Style from Martin Fowler [1].  
@@ -90,6 +89,8 @@ There are a few different ways to keep a service's persistent data private. For 
 * Private-tables-per-service and schema-per-service have the lowest overhead. Using a schema per service is appealing since it makes ownership clearer. Some high throughput services might need their own database server.  
   
 It is a good idea to create barriers that enforce this modularity. You could, for example, assign a different database user id to each service and use a database access control mechanism such as grants. Without some kind of barrier to enforce encapsulation, developers will always be tempted to bypass a service's API and access it's data directly.
+
+See [Database per service](https://microservices.io/patterns/data/database-per-service.html), [Shared database](https://microservices.io/patterns/data/shared-database.html) and [Sagas](https://microservices.io/patterns/data/saga.html) for database patterns.
 
 # References
 1. Marty Fowler Bliki: [Microservices – a definition of this new architectural term](https://martinfowler.com/articles/microservices.html)
