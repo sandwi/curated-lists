@@ -16,11 +16,11 @@ The elements that make up an API URL are:
 
 ## Example
 Here is a hypothetical URL that contains each of the elements:  
-/retail-card/accounts/12345/statement-credit/offers?type=new&select=id
+/credit-card/accounts/12345/statement-credit/offers?type=new&select=id
   
 The URL elements that appear in the URL are listed and briefly described below.  
 **Business Domain**  
-* retail-card
+* credit-card
 
 **Resource**  
 There are there resources in the URL:  
