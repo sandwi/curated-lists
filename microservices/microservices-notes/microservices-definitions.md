@@ -63,7 +63,7 @@ It is here the definitions provided by Martin Fowler [1] or Adrian Cockcroft [2]
 The public API can be RESTful or RPC based (such as using gRPC) or message based (reactive microservices, using RabbitMQ or Kafka for example).
 
 ## Microservices Architecture Characteristics
-The table below shows charateristics of Microservices Architecture Style from Martin Fowler [1].  
+The table below shows charateristics of Microservices Architecture Style [from Martin Fowler](https://martinfowler.com/articles/microservices.html):
 
 | Characteristic | Notes | 
 | -------------- | ----- | 
