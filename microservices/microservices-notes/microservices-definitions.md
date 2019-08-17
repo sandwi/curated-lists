@@ -23,7 +23,7 @@ Adrian further clarifies two terms:
   
 Here bounded context is a reference to Bounded Context design pattern defined in Domain-Driven Design by Eric Evans [8] . Included in the definition of Bounded Context is use of different data store in each bounded context.
 
-## Sam Neuman's definition of Microservices[4](https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1491950358)
+## Sam Neuman's definition of Microservices [4](https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1491950358)
 Sam Newman, an ex Googler and who worked at Thoughtworks, is author of _Building Microservices: Designing Fine Grained Systems_, in this book he defines Microservices as:  
 "Microservices are small, autonomous services that work together."
   
@@ -38,7 +38,7 @@ Although Amazon has generally not used the term “microservices", those in the 
 
 “For us service orientation means encapsulating the data with the business logic that operates on the data, with the only access through a published service interface. No direct database access is allowed from outside the service, and there's no data sharing among the services."  
 
-## Chris Richardson's Microservices Architecture Pattern[6](http://microservices.io/patterns/microservices.html)
+## Chris Richardson's Microservices Architecture Pattern [6](http://microservices.io/patterns/microservices.html)
 Chris Richardson, who was an architect at Netflix and a prominent author, trainer and a very prominent advocate of lightweight architectures, maintains a web site on Microservices Architecture where he has captured several software architecture patterns that are commonly used in Microservices Architecture Style.   
 
 The site uses famous Gang of Four (GoF) Architecture Pattern documentation template to document Microservices Architecture Pattern. The pattern has concepts very close to one defined by Martin Fowler that we covered earlier. We will not reproduce that pattern here but direct the reader to read the pattern on the [microsercices.io](https://microservices.io/) website.
