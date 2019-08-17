@@ -3,7 +3,7 @@ We start with stating that all industry definitions think of Microservices as an
 that is, it is an architecture pattern used to construct an application with well-defined software architecture principles. Thus the term Microservices means Microservices Architecture Style or Microservices Architecture Pattern or Microservices Architecture 
 and are used interchangeably.
 
-## Martin Fowler's definition of Microservices [1]
+## Martin Fowler's definition of Microservices [1](https://martinfowler.com/articles/microservices.html)
 The microservice architectural style is an approach to developing a single application:   
   
 * As a suite of small services, each running in its own process and communicating with lightweight mechanisms, often an HTTP resource API
@@ -13,17 +13,17 @@ The microservice architectural style is an approach to developing a single appli
 * These services may be written in different programming languages
 * These services use different data storage technologies
 
-## Adrian Cockroft's definition of Microservices [2]
+## Adrian Cockroft's definition of Microservices [2](https://www.slideshare.net/adriancockcroft/software-architecture-monitoring-microservices-a-challenge)
 Adrian Cockroft, who was Chief Cloud Architect at Netflix and now is VP of Cloud Architecture Strategy at AWS defined Microservices as [2]:  
 “Loosely coupled service oriented architecture with bounded contexts"  
 
 Adrian further clarifies two terms:
 * Loosely Couple means “If every service has to be updated in concert, it's not loosely coupled!"
-* Bounded Context [3] means “If you have to know about surrounding services you don't have a bounded context."  
+* [Bounded Context](https://martinfowler.com/bliki/BoundedContext.html) means “If you have to know about surrounding services you don't have a bounded context."  
   
 Here bounded context is a reference to Bounded Context design pattern defined in Domain-Driven Design by Eric Evans [8] . Included in the definition of Bounded Context is use of different data store in each bounded context.
 
-## Sam Neuman's definition of Microservices[4]
+## Sam Neuman's definition of Microservices[4](https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1491950358)
 Sam Newman, an ex Googler and who worked at Thoughtworks, is author of _Building Microservices: Designing Fine Grained Systems_, in this book he defines Microservices as:  
 "Microservices are small, autonomous services that work together."
   
@@ -33,18 +33,15 @@ Sam Newman further clarifies two terms in his definition:
   
 It is important to note if not already clear so far is that an Application built using Microservices Architecture style is a Distributed System.
 
-## Amazon's Use of Services [5]
+## Amazon's Use of Services [5](https://queue.acm.org/detail.cfm?id=1142065)
 Although Amazon has generally not used the term “microservices", those in the industry who are part of microservices movement draw a lot of inspiration from their experience. The 2006 ACM Queue interview with Werner Vogels, remains the best source for information on what they did:  
 
 “For us service orientation means encapsulating the data with the business logic that operates on the data, with the only access through a published service interface. No direct database access is allowed from outside the service, and there's no data sharing among the services."  
 
-## Chris Richardson's Microservices Architecture Pattern[6]
+## Chris Richardson's Microservices Architecture Pattern[6](http://microservices.io/patterns/microservices.html)
 Chris Richardson, who was an architect at Netflix and a prominent author, trainer and a very prominent advocate of lightweight architectures, maintains a web site on Microservices Architecture where he has captured several software architecture patterns that are commonly used in Microservices Architecture Style.   
 
 The site uses famous Gang of Four (GoF) Architecture Pattern documentation template to document Microservices Architecture Pattern. The pattern has concepts very close to one defined by Martin Fowler that we covered earlier. We will not reproduce that pattern here but direct the reader to read the pattern on the [microsercices.io](https://microservices.io/) website.
-
-## Final Thoughts
-Martin Fowler's definition is often used as an industry reference point. Real world pragmatism, particularly when migrating from legacy applications will relax a few constraints from the definition to meet needs in a given context. For example it may not be possible to have a database server per microservice.
 
 ## What Microservices are not!
 Just as important it is to understand what microservices architecture is, it is equally important to understand what it is not. There is a common misunderstanding that microservices are APIs. The fact is they are not APIs. A second misunderstanding is that the architecture requires use of RESTful API, it doesn't.
