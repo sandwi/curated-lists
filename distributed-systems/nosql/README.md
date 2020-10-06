@@ -14,6 +14,8 @@
 * [CAP Theorem](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/distributed-databases/README.md#cap-theorem)
 * Werner Vogel's [Eventually Consistent - Revisited](https://www.allthingsdistributed.com/2008/12/eventually_consistent.html)
 * [BASE: An Alternative to ACID](https://queue.acm.org/detail.cfm?id=1394128)
+* [NoSQL Database Systems: A Survey and Decision Guidance](https://www.baqend.com/files/nosql-survey.pdf)
+  * [A Medium article](https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d)
 
 # Key-Value Databases
 * Simple Caches (In-Memory K-V Stores)
