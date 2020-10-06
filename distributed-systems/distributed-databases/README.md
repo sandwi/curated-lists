@@ -12,6 +12,7 @@
 * [CAP Theorem Revisited](http://robertgreiner.com/2014/08/cap-theorem-revisited/)
 * Wikipedia Entry [CAP Theorem](https://en.wikipedia.org/wiki/CAP_theorem)
 * Eric Brewer [Inside Cloud Spanner and the CAP Theorem](https://cloud.google.com/blog/products/gcp/inside-cloud-spanner-and-the-cap-theorem)
+* Robert Yokota [Don't Settle for Eventual Consistency](https://yokota.blog/2017/02/17/dont-settle-for-eventual-consistency/)
 
 # Distributed Databases - Relational
 * [Google Spanner](https://cloud.google.com/spanner/)
