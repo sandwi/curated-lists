@@ -1,5 +1,6 @@
 **Table of Contents**
-1. **Distributed Systems Bulding Blocks**
+1. [Patterns of Distributed Systems on Martin Fowler's website](https://martinfowler.com/articles/patterns-of-distributed-systems/)
+2. **Distributed Systems Bulding Blocks**
    1. [Consensus Protocols](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/README.md#consensus-protocols)
    1. [Service Registry](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/README.md#service-registry)
    1. [Consistent Hashing](https://github.com/sandwi/curated-lists/blob/master/distributed-systems/README.md#consistent-hashing)
