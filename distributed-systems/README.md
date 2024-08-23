@@ -33,6 +33,10 @@
 * Implementations
   * [Tom White's Java Implementation](https://web.archive.org/web/20120605030524/http://weblogs.java.net/blog/tomwhite/archive/2007/11/consistent_hash.html)
   * [Cloudera's Java Implementation](https://github.com/cloudera/flume/blob/master/flume-core/src/main/java/com/cloudera/util/consistenthash/ConsistentHash.java)
+  * Rust
+    * [AnchorHash](https://github.com/domodwyer/anchorhash)
+    * [HashRing](https://crates.io/crates/hashring)
+    * [conhash-rs](https://github.com/zonyitoo/conhash-rs)
  
  ## Bloom Filters
  Bloom filters are very useful data structures and are used by distributed databases like BitTable or Cassandra or relational databases like Oracle, Postgres etc to avoid  disk lookups for non-existent rows or columns.
