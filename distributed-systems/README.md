@@ -31,8 +31,9 @@
 * [Michael Nielsen's Blog on Consistent Hashing](http://michaelnielsen.org/blog/consistent-hashing/)
 * [Good Read on Consistent Hashing](https://www.ably.io/blog/implementing-efficient-consistent-hashing)
 * Implementations
-  * [Tom White's Java Implementation](https://web.archive.org/web/20120605030524/http://weblogs.java.net/blog/tomwhite/archive/2007/11/consistent_hash.html)
-  * [Cloudera's Java Implementation](https://github.com/cloudera/flume/blob/master/flume-core/src/main/java/com/cloudera/util/consistenthash/ConsistentHash.java)
+  * Java  
+    * [Tom White's Java Implementation](https://web.archive.org/web/20120605030524/http://weblogs.java.net/blog/tomwhite/archive/2007/11/consistent_hash.html)
+    * [Cloudera's Java Implementation](https://github.com/cloudera/flume/blob/master/flume-core/src/main/java/com/cloudera/util/consistenthash/ConsistentHash.java)
   * Rust
     * [AnchorHash](https://github.com/domodwyer/anchorhash)
     * [HashRing](https://crates.io/crates/hashring)
